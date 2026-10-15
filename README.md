@@ -8,6 +8,7 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 
 ## Project status: done, pending, uncertain
 **Done**
+- 2026-10-15: v1.0.2 fixes the inspect command (`otiostat`, not `otioinfo`). End-to-end test on v1.0.1 passed (OTIO to FCPXML, Dropbox round trip byte-identical).
 - 2026-10-15: v1.0.1 adds Google and Meta tools back to the allowlist (not yet checked).
 - 2026-10-15: v1.0.0 built and tested (manifest, frontmatter, file links, skill and example consistency).
 - 2026-10-15: allowlist of 138 tools in 10 categories; 25 checked against vendor docs, a second source or a connected connector.
