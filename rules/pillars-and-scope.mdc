@@ -10,7 +10,7 @@ alwaysApply: false
 2. **Use only legitimate means.**
    - Only official methods: open file formats, the app's own scripting or plugin system, and the vendor's public API.
    - Never scrape, automate a web interface, share credentials, or work around a paywall or review process.
-   - Free tools first. Do not run credit-spending generation calls without the user's explicit approval. No Google or Facebook services.
+   - Free tools first. Do not run credit-spending generation calls without the user's explicit approval.
 3. **Double-check everything.**
    - Before reporting a transfer as done, check the output: file exists, opens, duration and track count match.
    - A tool fact counts as checked only with the vendor's own docs (or a connected connector); a second source where cheap.

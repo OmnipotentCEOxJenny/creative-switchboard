@@ -9,7 +9,7 @@ Follow `rules/pillars-and-scope.mdc`. Required.
 
 ## Workflow
 1. **Identify source, destination and asset type** (timeline, audio stems, mix, images, 3D scene, subtitles, final render).
-2. **Look up both tools** in `references/allowlist.csv`. Note the integration method, formats, whether the API needs a paid plan, terms limits, hard blockers, Google/Facebook exclusion, and verification status. If a tool is UNVERIFIED or missing, check the vendor's official docs first or tell the user it is unchecked.
+2. **Look up both tools** in `references/allowlist.csv`. Note the integration method, formats, whether the API needs a paid plan, terms limits, hard blockers, notes, and verification status. If a tool is UNVERIFIED or missing, check the vendor's official docs first or tell the user it is unchecked.
 3. **Pick the route, most open first:**
    1. Open format the destination imports (OTIO, FCPXML, AAF, EDL for timelines; WAV/FLAC/MIDI for audio; PNG/TIFF/SVG for images; glTF/FBX/USD for 3D; SRT/VTT for subtitles). See `skills/convert-timeline` for timeline work.
    2. Local scripting the app officially offers (for example Audacity mod-script-pipe, Blender Python, OBS WebSocket, Resolve Studio scripting).

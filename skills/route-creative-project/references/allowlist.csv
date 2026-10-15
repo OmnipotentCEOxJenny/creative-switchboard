@@ -1,4 +1,4 @@
-category,tool,api_or_integration,open_formats,api_needs_paid,tos_limits,hard_blocker,excluded_google_facebook,verification
+category,tool,api_or_integration,open_formats,api_needs_paid,tos_limits,hard_blocker,notes,verification
 Video editing,DaVinci Resolve,"Y: Python/Lua scripting + MCP server (21.1), Studio only","FCPXML, OTIO, AAF, EDL (import UNVERIFIED)",Yes (Studio $295),Local only,Yes for free edition,,VERIFIED (2 sources)
 Video editing,Adobe Premiere Pro,"Y: UXP plugins; exports FCPXML, AAF, OTIO","FCPXML, AAF, OTIO, EDL",App is paid subscription,Runs inside Premiere,No (via exported files),,VERIFIED (2 sources)
 Video editing,Final Cut Pro,"Y: FCPXML, Workflow Extensions, Apple Events",FCPXML,App is paid,macOS only,No (via FCPXML),,VERIFIED (vendor docs 2026-10-15)
@@ -29,7 +29,7 @@ Audio production / DAWs,LMMS,partial: open source,"WAV, MIDI",No,GPL,No,,UNVERIF
 Audio production / DAWs,Studio One,partial,"WAV, MIDI",App paid,Unknown,Unknown,,UNVERIFIED
 Audio production / DAWs,BandLab,N: no public API known,"WAV, MIDI",n/a,Unknown,Guide only,,UNVERIFIED
 Audio production / DAWs,Adobe Audition,partial: CEP/ExtendScript (legacy),"WAV, XML",App paid,Unknown,Guide mostly,,UNVERIFIED
-Music generation,Suno,Y: official API at platform.suno.com,"MP3, WAV",Generation costs credits (assumed),No scraping; API sign-in uses Google account,Flag: Google sign-in; credit spend,Google sign-in dependency,VERIFIED (vendor docs 2026-10-15)
+Music generation,Suno,Y: official API at platform.suno.com,"MP3, WAV",Generation costs credits (assumed),No scraping; API sign-in uses a Google account,Credit spend,,VERIFIED (vendor docs 2026-10-15)
 Music generation,Udio,N: no public API (Udio help center),"MP3, WAV",n/a,No automation route,Yes,,VERIFIED (vendor docs 2026-10-15)
 Music generation,Stable Audio,Y: Stability API,"WAV, MP3",Credits ($0.01 each),API terms,Credit spend,,UNVERIFIED
 Music generation,ElevenLabs Music,Y: ElevenLabs API (connected),"MP3, WAV",Credits for generation,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
@@ -40,14 +40,14 @@ Music generation,Boomy,N,MP3,n/a,Unknown,Guide only,,UNVERIFIED
 Music generation,Beatoven.ai,partial: API,"MP3, WAV",Paid,Unknown,Likely paid,,UNVERIFIED
 Music generation,Loudly,partial: API,"MP3, WAV",Paid,Unknown,Likely paid,,UNVERIFIED
 Image generation,Midjourney,N: no API; automation prohibited (ToS and guidelines),PNG,n/a,Automation and third-party apps banned,Yes,,VERIFIED (2 sources)
-Image generation,Stability AI (SD),Y: REST API,"PNG, JPEG",Credits ($0.01 each; 25 free via Google sign-up),API terms,Credit spend,Free credits tied to Google sign-up,VERIFIED (vendor docs 2026-10-15)
+Image generation,Stability AI (SD),Y: REST API,"PNG, JPEG",Credits ($0.01 each; 25 free credits with Google sign-up),API terms,Credit spend,,VERIFIED (vendor docs 2026-10-15)
 Image generation,Krea,Y: connected connector,"PNG, MP4",Generation spends credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
 Image generation,Adobe Firefly,Y: Firefly Services API,"PNG, JPEG",Enterprise/paid,Adobe terms,Likely paid,,UNVERIFIED
 Image generation,Leonardo.ai,Y: API,PNG,Paid API plans,Unknown,Likely paid,,UNVERIFIED
 Image generation,Ideogram,Y: API,PNG,Paid per image,Unknown,Credit spend,,UNVERIFIED
 Image generation,OpenAI image models,Y: API,PNG,Paid per image,OpenAI terms,Credit spend,,UNVERIFIED
-Image generation,Google Imagen / Gemini,Y,PNG,Paid,n/a,Excluded,Google,UNVERIFIED
-Image generation,Meta AI image,N/A,PNG,n/a,n/a,Excluded,Facebook/Meta,UNVERIFIED
+Image generation,Google Imagen / Gemini,Y: Gemini API (Imagen),PNG,Paid per image (free tier UNVERIFIED),Google API terms; user's own API key,No (via user key),,UNVERIFIED
+Image generation,Meta AI image,N: no public image API known,PNG,n/a,Meta terms,Guide only,,UNVERIFIED
 Image generation,Grok Imagine (xAI),Y: xAI API,"PNG, MP4",Paid per use,xAI terms,Credit spend,,UNVERIFIED
 Image generation,Recraft,Y: API,"SVG, PNG",Paid,Unknown,Credit spend,,UNVERIFIED
 Image generation,Playground,partial,PNG,Unknown,Unknown,Unknown,,UNVERIFIED
@@ -59,7 +59,7 @@ AI video,Krea video,Y: connected connector,MP4,Credits,Rob's no-credit rule,Cred
 AI video,Kling,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
 AI video,Hailuo / MiniMax,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
 AI video,OpenAI Sora,Y: API,MP4,Paid,OpenAI terms,Paid,,UNVERIFIED
-AI video,Google Veo,Y,MP4,Paid,n/a,Excluded,Google,UNVERIFIED
+AI video,Google Veo,Y: Gemini API / Vertex AI,MP4,Paid,Google API terms,Paid,,UNVERIFIED
 AI video,Synthesia,Y: API,MP4,Paid plans,Unknown,Paid,,UNVERIFIED
 AI video,HeyGen,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
 AI video,D-ID,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
@@ -106,7 +106,7 @@ Subtitles / voice,Veed,partial,"SRT, MP4",Paid tiers,Unknown,Unknown,,UNVERIFIED
 Storage / transfer hubs,Dropbox,Y: API (connected),Any,Free plan (2 GB),Dropbox API terms,No,,VERIFIED (connected connector)
 Storage / transfer hubs,Box,Y: API,Any,Free tier,Box terms,No,,UNVERIFIED
 Storage / transfer hubs,OneDrive,Y: Microsoft Graph,Any,Free tier,Microsoft terms,No,,UNVERIFIED
-Storage / transfer hubs,Google Drive,Y,Any,Free tier,n/a,Excluded,Google,UNVERIFIED
+Storage / transfer hubs,Google Drive,"Y: Drive API, user OAuth",Any,Free tier (15 GB),Google API terms; OAuth app verification for some scopes,No (via user OAuth),,UNVERIFIED
 Storage / transfer hubs,iCloud Drive,N: no public file API,Any,n/a,Apple terms,Guide only,,UNVERIFIED
 Storage / transfer hubs,WeTransfer,partial: public API status not found,Any,Unknown,Unknown,Unknown,,UNVERIFIED (search found no API docs)
 Storage / transfer hubs,MASV,Y: API,Any,Paid per GB,Unknown,Paid,,UNVERIFIED
@@ -121,10 +121,10 @@ Export / distribution,X,Y: API v2 media upload,"MP4, images","Pay-per-use, no ge
 Export / distribution,SoundCloud,Y: API upload via OAuth,"MP3, WAV",Yes: Artist Pro to register an app,API terms,Paid,,VERIFIED (2 sources)
 Export / distribution,Spotify for Artists,N: no upload API; distributors only,n/a,n/a,Distributor terms,Yes,,VERIFIED (2 sources)
 Export / distribution,Bandcamp,partial: API for labels/partners on request,n/a,Partner approval,No shared credentials,Partner only,,VERIFIED (vendor docs 2026-10-15)
-Export / distribution,YouTube,Y,MP4,Free,n/a,Excluded,Google,UNVERIFIED
-Export / distribution,Instagram / Reels,Y,MP4,Free,n/a,Excluded,Facebook/Meta,UNVERIFIED
-Export / distribution,Facebook,Y,MP4,Free,n/a,Excluded,Facebook/Meta,UNVERIFIED
-Export / distribution,Threads,Y,MP4,Free,n/a,Excluded,Facebook/Meta,UNVERIFIED
+Export / distribution,YouTube,"Y: YouTube Data API upload, user OAuth","MP4, MOV","Free, daily quota",Unverified apps' uploads may be locked private until audit (UNVERIFIED),Partial,,UNVERIFIED
+Export / distribution,Instagram / Reels,Y: Instagram Graph API publishing (professional accounts),"MP4, JPEG",Free; Meta app review,Business or creator account required,Partial,,UNVERIFIED
+Export / distribution,Facebook,Y: Graph API video publishing to Pages,MP4,Free; Meta app review,Pages only; app review,Partial,,UNVERIFIED
+Export / distribution,Threads,Y: Threads API publishing,"MP4, JPEG",Free; Meta app review,App review,Partial,,UNVERIFIED
 Export / distribution,Twitch,"partial: API, no general VOD upload found",n/a,Free,Twitch terms,Partial,,UNVERIFIED
 Export / distribution,Dailymotion,Y: API,MP4,Free,Unknown,Unknown,,UNVERIFIED
 Export / distribution,Rumble,N: no public upload API known,MP4,n/a,Unknown,Guide only,,UNVERIFIED

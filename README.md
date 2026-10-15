@@ -8,11 +8,12 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 
 ## Project status: done, pending, uncertain
 **Done**
+- 2026-10-15: v1.0.1 adds Google and Meta tools back to the allowlist (not yet checked).
 - 2026-10-15: v1.0.0 built and tested (manifest, frontmatter, file links, skill and example consistency).
 - 2026-10-15: allowlist of 138 tools in 10 categories; 25 checked against vendor docs, a second source or a connected connector.
 
 **Pending**
-- 105 tools are not yet checked; verify each against the vendor's docs before relying on it.
+- 113 tools are not yet checked; verify each against the vendor's docs before relying on it.
 - Cloud tools need the user's own sign-in (OAuth or API key); nothing connects without it.
 - Vimeo (free accounts need manual upload-access approval, up to 5 business days) and TikTok (unaudited apps post privately only; public posting needs an audit) have review delays.
 - DaVinci Resolve scripting and its MCP server need the paid Studio version (21.1). Premiere Pro and Final Cut Pro are export-only routes (files, not live control).
@@ -26,7 +27,6 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 - DaVinci Resolve OTIO import: not confirmed in the Resolve manual.
 - How the listing works on the Grok Bot and Grok side: not described in the publisher terms.
 
-YouTube, Instagram, Facebook, Threads, Google Drive, Google Veo, Google Imagen and Meta AI are out (Google or Facebook/Meta, by the publisher's rule).
 
 ## Quick start
 1. Install (see Installation).
@@ -114,8 +114,8 @@ YouTube, Instagram, Facebook, Threads, Google Drive, Google Veo, Google Imagen a
 | Leonardo.ai | Y: API | not yet checked |
 | Ideogram | Y: API | not yet checked |
 | OpenAI image models | Y: API | not yet checked |
-| Google Imagen / Gemini | Y | excluded (Google/Facebook) |
-| Meta AI image | N/A | excluded (Google/Facebook) |
+| Google Imagen / Gemini | Y: Gemini API (Imagen) | not yet checked |
+| Meta AI image | N: no public image API known | not yet checked |
 | Grok Imagine (xAI) | Y: xAI API | not yet checked |
 | Recraft | Y: API | not yet checked |
 | Playground | partial | not yet checked |
@@ -131,7 +131,7 @@ YouTube, Instagram, Facebook, Threads, Google Drive, Google Veo, Google Imagen a
 | Kling | Y: API | not yet checked |
 | Hailuo / MiniMax | Y: API | not yet checked |
 | OpenAI Sora | Y: API | not yet checked |
-| Google Veo | Y | excluded (Google/Facebook) |
+| Google Veo | Y: Gemini API / Vertex AI | not yet checked |
 | Synthesia | Y: API | not yet checked |
 | HeyGen | Y: API | not yet checked |
 | D-ID | Y: API | not yet checked |
@@ -194,7 +194,7 @@ YouTube, Instagram, Facebook, Threads, Google Drive, Google Veo, Google Imagen a
 | Dropbox | Y: API (connected) | checked |
 | Box | Y: API | not yet checked |
 | OneDrive | Y: Microsoft Graph | not yet checked |
-| Google Drive | Y | excluded (Google/Facebook) |
+| Google Drive | Y: Drive API, user OAuth | not yet checked |
 | iCloud Drive | N: no public file API | not yet checked |
 | WeTransfer | partial: public API status not found | not yet checked |
 | MASV | Y: API | not yet checked |
@@ -212,10 +212,10 @@ YouTube, Instagram, Facebook, Threads, Google Drive, Google Veo, Google Imagen a
 | SoundCloud | Y: API upload via OAuth | checked |
 | Spotify for Artists | N: no upload API; distributors only | checked |
 | Bandcamp | partial: API for labels/partners on request | checked |
-| YouTube | Y | excluded (Google/Facebook) |
-| Instagram / Reels | Y | excluded (Google/Facebook) |
-| Facebook | Y | excluded (Google/Facebook) |
-| Threads | Y | excluded (Google/Facebook) |
+| YouTube | Y: YouTube Data API upload, user OAuth | not yet checked |
+| Instagram / Reels | Y: Instagram Graph API publishing (professional accounts) | not yet checked |
+| Facebook | Y: Graph API video publishing to Pages | not yet checked |
+| Threads | Y: Threads API publishing | not yet checked |
 | Twitch | partial: API, no general VOD upload found | not yet checked |
 | Dailymotion | Y: API | not yet checked |
 | Rumble | N: no public upload API known | not yet checked |
@@ -231,7 +231,7 @@ YouTube, Instagram, Facebook, Threads, Google Drive, Google Veo, Google Imagen a
 | Archive.org | Y: S3-like API | not yet checked |
 
 ## Requirements
-Free tools only by default (OpenTimelineIO, local apps, Dropbox free plan). No paid APIs required. No Google or Facebook services.
+Free tools only by default (OpenTimelineIO, local apps, Dropbox free plan). No paid APIs required.
 
 ## Installation
 Copy to `~/.cursor/plugins/local/creative-switchboard/`, or install from the marketplace once listed.

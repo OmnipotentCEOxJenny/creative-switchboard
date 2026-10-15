@@ -1,7 +1,7 @@
 {
   "name": "creative-switchboard",
   "displayName": "Creative Switchboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free switchboard that routes projects between creative tools through open formats (OTIO, FCPXML, AAF, EDL, WAV), a Dropbox hub and each vendor's official methods.",
   "author": { "name": "Rob Domaine / Omnipotent Media LLC" },
   "publisher": "Omnipotent Media LLC",
