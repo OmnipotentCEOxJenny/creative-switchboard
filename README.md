@@ -8,6 +8,7 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 
 ## Project status: done, pending, uncertain
 **Done**
+- 2026-10-15: v1.0.3 adds Installation, Testing and License sections, clearer adapter install steps, and an EDL single-track warning (found by testing: EDL output drops the audio track without an error).
 - 2026-10-15: v1.0.2 fixes the inspect command (`otiostat`, not `otioinfo`). End-to-end test on v1.0.1 passed (OTIO to FCPXML, Dropbox round trip byte-identical).
 - 2026-10-15: v1.0.1 adds Google and Meta tools back to the allowlist (not yet checked).
 - 2026-10-15: v1.0.0 built and tested (manifest, frontmatter, file links, skill and example consistency).
@@ -33,6 +34,20 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 1. Install (see Installation).
 2. Ask: "Move my Premiere timeline to DaVinci Resolve and send the dialogue to Audacity."
 3. Get a route (most open method first), the steps, a verification of the result, and a list of anything lost or unchecked.
+
+## Installation
+1. Install from this repository: https://github.com/OmnipotentCEOxJenny/creative-switchboard (Cursor plugin format: `.cursor-plugin/plugin.json`, `skills/`, `rules/`).
+2. Optional, for timeline conversion: `pip install opentimelineio otio-fcpx-xml-adapter otio-cmx3600-adapter` (add `otio-aaf-adapter` for AAF). All free and open source.
+
+## Testing
+```
+otiostat sample.otio
+otioconvert -i sample.otio -o sample.fcpxml
+otiostat sample.fcpxml
+otioconvert -i sample.otio -o sample.edl
+otiostat sample.edl
+```
+Expected: FCPXML matches the source's track count, clip count and total duration. EDL keeps the duration but only one track (EDL is single-track).
 
 ## Credits
 - Inventor and publisher: Rob Domaine / Omnipotent Media LLC
@@ -243,3 +258,6 @@ Copy to `~/.cursor/plugins/local/creative-switchboard/`, or install from the mar
 - [Feature request](https://github.com/OmnipotentCEOxJenny/creative-switchboard/issues/new?template=feature-request.md)
 
 License: MIT.
+
+## License
+MIT. See `LICENSE`. Copyright Rob Domaine / Omnipotent Media LLC.
