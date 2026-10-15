@@ -1,0 +1,13 @@
+{
+  "name": "creative-switchboard",
+  "displayName": "Creative Switchboard",
+  "version": "1.0.0",
+  "description": "Free switchboard that routes projects between creative tools through open formats (OTIO, FCPXML, AAF, EDL, WAV), a Dropbox hub and each vendor's official methods.",
+  "author": { "name": "Rob Domaine / Omnipotent Media LLC" },
+  "publisher": "Omnipotent Media LLC",
+  "homepage": "https://github.com/OmnipotentCEOxJenny/creative-switchboard",
+  "repository": "https://github.com/OmnipotentCEOxJenny/creative-switchboard",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["creative", "video-editing", "audio", "otio", "fcpxml", "aaf", "workflow", "entertainment"]
+}

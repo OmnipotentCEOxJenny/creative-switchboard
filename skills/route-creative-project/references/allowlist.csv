@@ -1,0 +1,140 @@
+category,tool,api_or_integration,open_formats,api_needs_paid,tos_limits,hard_blocker,excluded_google_facebook,verification
+Video editing,DaVinci Resolve,"Y: Python/Lua scripting + MCP server (21.1), Studio only","FCPXML, OTIO, AAF, EDL (import UNVERIFIED)",Yes (Studio $295),Local only,Yes for free edition,,VERIFIED (2 sources)
+Video editing,Adobe Premiere Pro,"Y: UXP plugins; exports FCPXML, AAF, OTIO","FCPXML, AAF, OTIO, EDL",App is paid subscription,Runs inside Premiere,No (via exported files),,VERIFIED (2 sources)
+Video editing,Final Cut Pro,"Y: FCPXML, Workflow Extensions, Apple Events",FCPXML,App is paid,macOS only,No (via FCPXML),,VERIFIED (vendor docs 2026-10-15)
+Video editing,iMovie,N: no public API known; exports to Final Cut,Project export to FCP; MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Video editing,CapCut,N: no public editing API found,MP4,n/a,Unknown,Guide only,,UNVERIFIED (one search found none)
+Video editing,Avid Media Composer,partial: SDKs for partners,"AAF, MXF, EDL",Partner program,Partner terms,Likely,,UNVERIFIED
+Video editing,Kdenlive,"partial: open source, MLT XML projects","MLT XML, OTIO (import)",No,GPL,No,,UNVERIFIED
+Video editing,Shotcut,"partial: open source, MLT XML",MLT XML,No,GPL,No,,UNVERIFIED
+Video editing,OpenShot,Y: libopenshot Python API,OSP JSON,No,GPL,No,,UNVERIFIED
+Video editing,Lightworks,partial,"AAF, EDL, XML",Pro tiers,Unknown,Unknown,,UNVERIFIED
+Video editing,VEGAS Pro,Y: scripting API (C#),"EDL, AAF",App paid,Unknown,No (local),,UNVERIFIED
+Video editing,HitFilm,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Video editing,Descript,partial: limited API,Export to Premiere/FCP XML,Paid plans,Unknown,Unknown,,UNVERIFIED
+Video editing,Clipchamp,"N: Microsoft, no public API known",MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Video editing,Filmora,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Video editing,Frame.io (review),"Y: V4 REST API, OAuth via Adobe IMS",Any media,Needs provisioned V4 account,Adobe Developer terms,No,,VERIFIED (2 sources)
+Audio production / DAWs,Audacity,"Y: mod-script-pipe (named pipes), ships with app","WAV, FLAC, MP3, OGG",No,Local; security warning,No,,VERIFIED (2 sources)
+Audio production / DAWs,Ableton Live,"partial: Max for Live (Suite), unofficial remote scripts","WAV, MIDI, ALS",Suite paid,Unknown,Unknown,,UNVERIFIED (SINGLE-CHECK)
+Audio production / DAWs,REAPER,"Y: ReaScript (Lua, Python, EEL)","WAV, MIDI, RPP text project",App license (low cost),Unknown,No (local),,UNVERIFIED
+Audio production / DAWs,Logic Pro,partial: Scripter MIDI JS only,"WAV, MIDI, AAF",App paid,macOS only,Guide mostly,,UNVERIFIED
+Audio production / DAWs,GarageBand,N,"WAV, MIDI",n/a,macOS/iOS,Guide only,,UNVERIFIED
+Audio production / DAWs,FL Studio,partial: MIDI scripting (Python),"WAV, MIDI",App paid,Unknown,Guide mostly,,UNVERIFIED
+Audio production / DAWs,Pro Tools,partial: scripting SDK for partners,"AAF, WAV",App paid,Partner terms,Likely,,UNVERIFIED
+Audio production / DAWs,Cubase / Nuendo,partial: MIDI remote API,"WAV, MIDI, AAF",App paid,Unknown,Guide mostly,,UNVERIFIED
+Audio production / DAWs,Bitwig Studio,partial: controller scripting API (JS),"WAV, MIDI",App paid,Unknown,Guide mostly,,UNVERIFIED
+Audio production / DAWs,Ardour,"Y: Lua scripting, open source","WAV, MIDI, AAF import",No,GPL,No,,UNVERIFIED
+Audio production / DAWs,LMMS,partial: open source,"WAV, MIDI",No,GPL,No,,UNVERIFIED
+Audio production / DAWs,Studio One,partial,"WAV, MIDI",App paid,Unknown,Unknown,,UNVERIFIED
+Audio production / DAWs,BandLab,N: no public API known,"WAV, MIDI",n/a,Unknown,Guide only,,UNVERIFIED
+Audio production / DAWs,Adobe Audition,partial: CEP/ExtendScript (legacy),"WAV, XML",App paid,Unknown,Guide mostly,,UNVERIFIED
+Music generation,Suno,Y: official API at platform.suno.com,"MP3, WAV",Generation costs credits (assumed),No scraping; API sign-in uses Google account,Flag: Google sign-in; credit spend,Google sign-in dependency,VERIFIED (vendor docs 2026-10-15)
+Music generation,Udio,N: no public API (Udio help center),"MP3, WAV",n/a,No automation route,Yes,,VERIFIED (vendor docs 2026-10-15)
+Music generation,Stable Audio,Y: Stability API,"WAV, MP3",Credits ($0.01 each),API terms,Credit spend,,UNVERIFIED
+Music generation,ElevenLabs Music,Y: ElevenLabs API (connected),"MP3, WAV",Credits for generation,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
+Music generation,Mubert,Y: API for business,MP3,Paid plans,Unknown,Likely paid,,UNVERIFIED
+Music generation,Soundraw,partial: API for partners,"MP3, WAV",Paid,Unknown,Likely paid,,UNVERIFIED
+Music generation,AIVA,N,"MIDI, WAV",n/a,Unknown,Guide only,,UNVERIFIED
+Music generation,Boomy,N,MP3,n/a,Unknown,Guide only,,UNVERIFIED
+Music generation,Beatoven.ai,partial: API,"MP3, WAV",Paid,Unknown,Likely paid,,UNVERIFIED
+Music generation,Loudly,partial: API,"MP3, WAV",Paid,Unknown,Likely paid,,UNVERIFIED
+Image generation,Midjourney,N: no API; automation prohibited (ToS and guidelines),PNG,n/a,Automation and third-party apps banned,Yes,,VERIFIED (2 sources)
+Image generation,Stability AI (SD),Y: REST API,"PNG, JPEG",Credits ($0.01 each; 25 free via Google sign-up),API terms,Credit spend,Free credits tied to Google sign-up,VERIFIED (vendor docs 2026-10-15)
+Image generation,Krea,Y: connected connector,"PNG, MP4",Generation spends credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
+Image generation,Adobe Firefly,Y: Firefly Services API,"PNG, JPEG",Enterprise/paid,Adobe terms,Likely paid,,UNVERIFIED
+Image generation,Leonardo.ai,Y: API,PNG,Paid API plans,Unknown,Likely paid,,UNVERIFIED
+Image generation,Ideogram,Y: API,PNG,Paid per image,Unknown,Credit spend,,UNVERIFIED
+Image generation,OpenAI image models,Y: API,PNG,Paid per image,OpenAI terms,Credit spend,,UNVERIFIED
+Image generation,Google Imagen / Gemini,Y,PNG,Paid,n/a,Excluded,Google,UNVERIFIED
+Image generation,Meta AI image,N/A,PNG,n/a,n/a,Excluded,Facebook/Meta,UNVERIFIED
+Image generation,Grok Imagine (xAI),Y: xAI API,"PNG, MP4",Paid per use,xAI terms,Credit spend,,UNVERIFIED
+Image generation,Recraft,Y: API,"SVG, PNG",Paid,Unknown,Credit spend,,UNVERIFIED
+Image generation,Playground,partial,PNG,Unknown,Unknown,Unknown,,UNVERIFIED
+Image generation,ComfyUI (local),"Y: local HTTP API, open source","PNG, workflow JSON",No (local GPU),GPL,No (needs GPU),,UNVERIFIED
+AI video,Runway,Y: connected connector,MP4,Generation spends credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
+AI video,Luma (Dream Machine/Ray),"Y: API, pay-as-you-go ($0.15+ per 5 s)",MP4,Yes,API terms,Paid,,VERIFIED (vendor docs 2026-10-15)
+AI video,Pika,"Y: API, no free generation tier",MP4,Yes (prepaid),API terms,Paid,,VERIFIED (vendor docs 2026-10-15)
+AI video,Krea video,Y: connected connector,MP4,Credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
+AI video,Kling,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
+AI video,Hailuo / MiniMax,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
+AI video,OpenAI Sora,Y: API,MP4,Paid,OpenAI terms,Paid,,UNVERIFIED
+AI video,Google Veo,Y,MP4,Paid,n/a,Excluded,Google,UNVERIFIED
+AI video,Synthesia,Y: API,MP4,Paid plans,Unknown,Paid,,UNVERIFIED
+AI video,HeyGen,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
+AI video,D-ID,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
+AI video,Haiper,partial,MP4,Unknown,Unknown,Unknown,,UNVERIFIED
+AI video,Kaiber,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Animation / 3D / motion,Blender,Y: built-in Python API (bpy),"glTF, FBX, OBJ, USD, Alembic","No (free, open source)",GPL,No,,VERIFIED (vendor docs 2026-10-15)
+Animation / 3D / motion,Adobe After Effects,partial: ExtendScript/CEP (UXP in progress),"AEP, MOV",App paid,Adobe terms,Guide mostly,,UNVERIFIED
+Animation / 3D / motion,Cinema 4D,Y: Python SDK,"FBX, USD, Alembic",App paid,Unknown,Local only,,UNVERIFIED
+Animation / 3D / motion,Autodesk Maya,Y: Python/MEL,"FBX, USD, Alembic",App paid,Autodesk terms,Local only,,UNVERIFIED
+Animation / 3D / motion,Houdini,Y: Python (hou),"USD, Alembic, FBX","App paid (Apprentice free, noncommercial)",SideFX terms,Local only,,UNVERIFIED
+Animation / 3D / motion,Unreal Engine,"Y: Python/Blueprint, Remote Control API","USD, FBX",Free (royalty terms),Epic EULA,No (local),,UNVERIFIED
+Animation / 3D / motion,Unity,Y: C# Editor scripting,"FBX, USD",Free tier,Unity terms,No (local),,UNVERIFIED
+Animation / 3D / motion,Spline,partial: API/export,glTF,Paid tiers,Unknown,Unknown,,UNVERIFIED
+Animation / 3D / motion,Rive,partial: runtime APIs,RIV,Free tier,Unknown,Unknown,,UNVERIFIED
+Animation / 3D / motion,LottieFiles,Y: API,Lottie JSON,Free tier,Unknown,Unknown,,UNVERIFIED
+Animation / 3D / motion,Toon Boom Harmony,partial: scripting,"SWF, PNG seq",App paid,Unknown,Local only,,UNVERIFIED
+Animation / 3D / motion,Synfig,partial: open source,SIF XML,No,GPL,No,,UNVERIFIED
+Animation / 3D / motion,Moho,partial: Lua scripting,MOHO,App paid,Unknown,Local only,,UNVERIFIED
+Animation / 3D / motion,Adobe Animate,partial: JSFL,"FLA, SVG",App paid,Unknown,Guide mostly,,UNVERIFIED
+Graphics / design,Canva,Y: Connect API + Apps SDK (connected),"PNG, JPEG, PDF, MP4",Some features need paid/Enterprise; public integrations need Canva review,Canva review,No (via user OAuth),,VERIFIED (2 sources)
+Graphics / design,Figma,"Y: REST API, OAuth2 or tokens","SVG, PNG, PDF",Not stated as paid,Figma API terms,No,,VERIFIED (vendor docs 2026-10-15)
+Graphics / design,Adobe Photoshop,Y: UXP plugins; Photoshop API (Firefly Services),"PSD, PNG, TIFF",App/API paid,Adobe terms,Local via UXP,,UNVERIFIED
+Graphics / design,Adobe Illustrator,partial: ExtendScript/UXP,"AI, SVG, PDF",App paid,Adobe terms,Local only,,UNVERIFIED
+Graphics / design,Affinity apps,N: no public scripting known,"PSD, SVG, PDF",n/a,Unknown,Guide only,,UNVERIFIED
+Graphics / design,GIMP,"Y: Python-Fu scripting, open source","XCF, PSD, PNG",No,GPL,No,,UNVERIFIED
+Graphics / design,Inkscape,"Y: extensions + CLI, open source","SVG, PDF, PNG",No,GPL,No,,UNVERIFIED
+Graphics / design,Krita,"Y: Python scripting, open source","KRA, PSD, PNG",No,GPL,No,,UNVERIFIED
+Graphics / design,Photopea,partial: URL/JSON API,"PSD, PNG",Free (ads),Unknown,Unknown,,UNVERIFIED
+Graphics / design,Sketch,partial: plugin API,"SVG, PNG",App paid,macOS,Local only,,UNVERIFIED
+Graphics / design,Penpot,"Y: API, open source",SVG,No,MPL,No,,UNVERIFIED
+Graphics / design,Adobe Express,partial: add-ons SDK,"PNG, MP4",Unknown,Adobe terms,Unknown,,UNVERIFIED
+Subtitles / voice,ElevenLabs,Y: API (connected),"MP3, WAV, SRT (dubbing)",Free tier limited; credits,Rob's no-credit rule,Credit spend for generation,,VERIFIED (connected connector)
+Subtitles / voice,Whisper (open source),"Y: local, open source (MIT)","SRT, VTT, TXT",No (local),MIT,No,,UNVERIFIED
+Subtitles / voice,Subtitle Edit,"partial: CLI, open source","SRT, VTT, ASS",No,GPL,No,,UNVERIFIED
+Subtitles / voice,Aegisub,"partial: Lua automation, open source","ASS, SRT",No,BSD,No,,UNVERIFIED
+Subtitles / voice,Rev,Y: API,"SRT, VTT",Paid per minute,Unknown,Paid,,UNVERIFIED
+Subtitles / voice,Otter.ai,partial,"TXT, SRT",Paid,Unknown,Unknown,,UNVERIFIED
+Subtitles / voice,AssemblyAI,Y: API,"SRT, VTT",Paid (free trial credits),Unknown,Credit spend,,UNVERIFIED
+Subtitles / voice,Deepgram,Y: API,"SRT, VTT",Paid (free credits),Unknown,Credit spend,,UNVERIFIED
+Subtitles / voice,Murf,Y: API,"MP3, WAV",Paid,Unknown,Paid,,UNVERIFIED
+Subtitles / voice,Resemble AI,Y: API,WAV,Paid,Unknown,Paid,,UNVERIFIED
+Subtitles / voice,Kapwing,partial,"SRT, MP4",Paid tiers,Unknown,Unknown,,UNVERIFIED
+Subtitles / voice,Veed,partial,"SRT, MP4",Paid tiers,Unknown,Unknown,,UNVERIFIED
+Storage / transfer hubs,Dropbox,Y: API (connected),Any,Free plan (2 GB),Dropbox API terms,No,,VERIFIED (connected connector)
+Storage / transfer hubs,Box,Y: API,Any,Free tier,Box terms,No,,UNVERIFIED
+Storage / transfer hubs,OneDrive,Y: Microsoft Graph,Any,Free tier,Microsoft terms,No,,UNVERIFIED
+Storage / transfer hubs,Google Drive,Y,Any,Free tier,n/a,Excluded,Google,UNVERIFIED
+Storage / transfer hubs,iCloud Drive,N: no public file API,Any,n/a,Apple terms,Guide only,,UNVERIFIED
+Storage / transfer hubs,WeTransfer,partial: public API status not found,Any,Unknown,Unknown,Unknown,,UNVERIFIED (search found no API docs)
+Storage / transfer hubs,MASV,Y: API,Any,Paid per GB,Unknown,Paid,,UNVERIFIED
+Storage / transfer hubs,Frame.io,see Video editing,Any,Needs V4 account,Adobe terms,No,,VERIFIED (2 sources)
+Storage / transfer hubs,pCloud,Y: API,Any,Free tier,Unknown,Unknown,,UNVERIFIED
+Storage / transfer hubs,MEGA,Y: SDK,Any,Free tier,Unknown,Unknown,,UNVERIFIED
+Storage / transfer hubs,Backblaze B2,Y: S3-compatible API,Any,Free 10 GB tier,B2 terms,No,,UNVERIFIED
+Storage / transfer hubs,Local disk / NAS,Y: file system,Any,No,None,No,,UNVERIFIED
+Export / distribution,Vimeo,"Y: API upload, OAuth upload scope","MP4, MOV",Free accounts need manual upload-access approval,API terms,No (after approval),,VERIFIED (2 sources)
+Export / distribution,TikTok,Y: Content Posting API,"MP4, photos",Free,"Unaudited: private posts only, 5 users/24 h; audit for public",Partial,,VERIFIED (2 sources)
+Export / distribution,X,Y: API v2 media upload,"MP4, images","Pay-per-use, no general free tier (SINGLE-CHECK)",X developer terms,Paid,,UNVERIFIED (third-party blogs only)
+Export / distribution,SoundCloud,Y: API upload via OAuth,"MP3, WAV",Yes: Artist Pro to register an app,API terms,Paid,,VERIFIED (2 sources)
+Export / distribution,Spotify for Artists,N: no upload API; distributors only,n/a,n/a,Distributor terms,Yes,,VERIFIED (2 sources)
+Export / distribution,Bandcamp,partial: API for labels/partners on request,n/a,Partner approval,No shared credentials,Partner only,,VERIFIED (vendor docs 2026-10-15)
+Export / distribution,YouTube,Y,MP4,Free,n/a,Excluded,Google,UNVERIFIED
+Export / distribution,Instagram / Reels,Y,MP4,Free,n/a,Excluded,Facebook/Meta,UNVERIFIED
+Export / distribution,Facebook,Y,MP4,Free,n/a,Excluded,Facebook/Meta,UNVERIFIED
+Export / distribution,Threads,Y,MP4,Free,n/a,Excluded,Facebook/Meta,UNVERIFIED
+Export / distribution,Twitch,"partial: API, no general VOD upload found",n/a,Free,Twitch terms,Partial,,UNVERIFIED
+Export / distribution,Dailymotion,Y: API,MP4,Free,Unknown,Unknown,,UNVERIFIED
+Export / distribution,Rumble,N: no public upload API known,MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Export / distribution,Apple Music,N: distributors only,n/a,n/a,Distributor terms,Yes,,UNVERIFIED
+Export / distribution,Amazon Music,N: distributors only,n/a,n/a,Distributor terms,Yes,,UNVERIFIED
+Export / distribution,DistroKid,N: no public API known,WAV,Paid service,Unknown,Paid,,UNVERIFIED
+Export / distribution,Audiomack,partial,MP3,Unknown,Unknown,Unknown,,UNVERIFIED
+Export / distribution,LinkedIn,Y: API (approval),MP4,"Free, app review",LinkedIn terms,Partial,,UNVERIFIED
+Export / distribution,Pinterest,Y: API (approval),"Images, MP4","Free, app review",Pinterest terms,Partial,,UNVERIFIED
+Export / distribution,Bluesky,"Y: AT Protocol, open","Images, MP4",No,Open protocol,No,,UNVERIFIED
+Export / distribution,Mastodon,Y: open API,"Images, MP4",No,Per-server rules,No,,UNVERIFIED
+Export / distribution,PeerTube,Y: open API,MP4,No,Per-instance rules,No,,UNVERIFIED
+Export / distribution,Archive.org,Y: S3-like API,Any,No,IA terms,No,,UNVERIFIED
