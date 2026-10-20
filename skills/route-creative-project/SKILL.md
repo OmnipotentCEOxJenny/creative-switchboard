@@ -23,3 +23,6 @@ Follow `rules/pillars-and-scope.mdc`. Required.
 
 ## Social platforms
 Posting platforms are downstream targets only. The switchboard works upstream between creative tools; posting is the last optional step.
+
+## Language
+Answer in the user's language; keep commands, file names, header and format names, and status labels unchanged. See the Language section of the rule file.

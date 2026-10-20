@@ -8,6 +8,7 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 
 ## Project status: done, pending, uncertain
 **Done**
+- 2026-10-20: v1.0.4 pins tested OpenTimelineIO versions, marks AAF output UNVERIFIED (read-back failed in testing), removes duplicate README sections, adds multi-language answers and 20 translated summaries (machine-made, not yet native-reviewed); Dropbox round-trip re-test PASS.
 - 2026-10-15: v1.0.3 adds Installation, Testing and License sections, clearer adapter install steps, and an EDL single-track warning (found by testing: EDL output drops the audio track without an error).
 - 2026-10-15: v1.0.2 fixes the inspect command (`otiostat`, not `otioinfo`). End-to-end test on v1.0.1 passed (OTIO to FCPXML, Dropbox round trip byte-identical).
 - 2026-10-15: v1.0.1 adds Google and Meta tools back to the allowlist (not yet checked).
@@ -22,7 +23,8 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 - CapCut: no public API found. SoundCloud: API needs the paid Artist Pro plan. Spotify: no upload API (distributors only).
 - Runway, Krea and ElevenLabs generation spends credits; never run without approval.
 - Ableton Live: not checked. Lighting, camera, SFX library, mastering and instrument tools: not yet researched.
-- Marketplace: not yet submitted.
+- Marketplace review: submitted 2026-10-15 (v1.0.3), pending, no approval yet.
+- AAF: `otioconvert` writes an AAF file, but reading it back with `otiostat` failed in testing (pyaaf2 "stream does not exists: /referenced properties"). AAF output is UNVERIFIED; prefer OTIO or FCPXML.
 
 **Uncertain**
 - X API: possibly pay-per-use for new developers; not confirmed on X's own docs.
@@ -36,8 +38,8 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 3. Get a route (most open method first), the steps, a verification of the result, and a list of anything lost or unchecked.
 
 ## Installation
-1. Install from this repository: https://github.com/OmnipotentCEOxJenny/creative-switchboard (Cursor plugin format: `.cursor-plugin/plugin.json`, `skills/`, `rules/`).
-2. Optional, for timeline conversion: `pip install opentimelineio otio-fcpx-xml-adapter otio-cmx3600-adapter` (add `otio-aaf-adapter` for AAF). All free and open source.
+1. Copy this repository (https://github.com/OmnipotentCEOxJenny/creative-switchboard) to `~/.cursor/plugins/local/creative-switchboard/`, or install from the marketplace once listed (Cursor plugin format: `.cursor-plugin/plugin.json`, `skills/`, `rules/`).
+2. Optional, for timeline conversion: `pip install "opentimelineio==0.18.1" "otio-fcpx-xml-adapter==1.0.0" "otio-cmx3600-adapter==1.0.0"` (add `"otio-aaf-adapter==2.0.0"` for AAF). Versions are pinned to the ones tested (Python 3.13); newer versions may rename commands. All free and open source.
 
 ## Testing
 ```
@@ -249,15 +251,13 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 ## Requirements
 Free tools only by default (OpenTimelineIO, local apps, Dropbox free plan). No paid APIs required.
 
-## Installation
-Copy to `~/.cursor/plugins/local/creative-switchboard/`, or install from the marketplace once listed.
+## Languages
+The AI answers in the user's language and keeps commands and file names unchanged. Short summaries in 20 languages are in [TRANSLATIONS.md](TRANSLATIONS.md): Spanish, French, Portuguese, German, Italian, Chinese (Simplified), Japanese, Korean, Hindi, Arabic, Russian, Indonesian, Turkish, Vietnamese, Bengali, Swahili, Ukrainian, Polish, Dutch and Tagalog. They are machine translations, not yet reviewed by a native speaker.
 
 ## Feedback and reviews
 - Reviews and feedback: [Discussions](https://github.com/OmnipotentCEOxJenny/creative-switchboard/discussions)
 - [Report a wrong route or tool fact](https://github.com/OmnipotentCEOxJenny/creative-switchboard/issues/new?template=wrong-route.md)
 - [Feature request](https://github.com/OmnipotentCEOxJenny/creative-switchboard/issues/new?template=feature-request.md)
-
-License: MIT.
 
 ## License
 MIT. See `LICENSE`. Copyright Rob Domaine / Omnipotent Media LLC.

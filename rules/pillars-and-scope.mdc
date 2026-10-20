@@ -18,3 +18,8 @@ alwaysApply: false
    - Cloud tools connect only through the user's own sign-in (OAuth or the user's own API key) and the vendor's terms.
    - Respect copyright and licenses on media being moved; do not move content the user has no right to use.
    - Keep API keys and tokens out of reports and files.
+
+# Language
+- Detect the language the user writes in and answer in that language. If it is unclear, ask which language they want.
+- Keep commands, code, file names, paths, URLs, header names, format and API names, and status labels (CONFIRMED, UNVERIFIED, SINGLE-CHECK) exactly as written; do not translate them.
+- Translations you produce are machine-made. Say so when accuracy matters, and never present a translation as a quotation of the source.
