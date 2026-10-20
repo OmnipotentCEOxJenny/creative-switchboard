@@ -10,7 +10,7 @@ Video editing,Shotcut,"partial: open source, MLT XML",MLT XML,No,GPL,No,,UNVERIF
 Video editing,OpenShot,Y: libopenshot Python API,OSP JSON,No,GPL,No,,UNVERIFIED
 Video editing,Lightworks,partial,"AAF, EDL, XML",Pro tiers,Unknown,Unknown,,UNVERIFIED
 Video editing,VEGAS Pro,Y: scripting API (C#),"EDL, AAF",App paid,Unknown,No (local),,UNVERIFIED
-Video editing,HitFilm,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
+Video editing,HitFilm,"N: DISCONTINUED by Artlist 15 Jan 2025; no new licenses, downloads or support",MP4,n/a (no longer sold),Unknown,Yes (discontinued),Sources: cgchannel.com/2025/02/artlist-discontinues-the-fxhome-apps-hitfilm-and-imerge-dead/ ; digitalproduction.com/2025/02/24/hitfilm-imerge-artlist-pulls-the-plug/,"VERIFIED (2 sources, 2026-10-20)"
 Video editing,Descript,partial: limited API,Export to Premiere/FCP XML,Paid plans,Unknown,Unknown,,UNVERIFIED
 Video editing,Clipchamp,"N: Microsoft, no public API known",MP4,n/a,Unknown,Guide only,,UNVERIFIED
 Video editing,Filmora,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
@@ -21,7 +21,7 @@ Audio production / DAWs,REAPER,"Y: ReaScript (Lua, Python, EEL)","WAV, MIDI, RPP
 Audio production / DAWs,Logic Pro,partial: Scripter MIDI JS only,"WAV, MIDI, AAF",App paid,macOS only,Guide mostly,,UNVERIFIED
 Audio production / DAWs,GarageBand,N,"WAV, MIDI",n/a,macOS/iOS,Guide only,,UNVERIFIED
 Audio production / DAWs,FL Studio,partial: MIDI scripting (Python),"WAV, MIDI",App paid,Unknown,Guide mostly,,UNVERIFIED
-Audio production / DAWs,Pro Tools,partial: scripting SDK for partners,"AAF, WAV",App paid,Partner terms,Likely,,UNVERIFIED
+Audio production / DAWs,Pro Tools,"Y: Pro Tools Scripting SDK (PTSL, gRPC), free to anyone with an Avid account","AAF, WAV",App paid,Avid SDK license agreement,"No (local; app itself paid, Intro tier supported)",Sources: developer.avid.com/scripting/ ; kb.avid.com Pro-Tools-Scripting-SDK-FAQ,"VERIFIED (2 sources, 2026-10-20)"
 Audio production / DAWs,Cubase / Nuendo,partial: MIDI remote API,"WAV, MIDI, AAF",App paid,Unknown,Guide mostly,,UNVERIFIED
 Audio production / DAWs,Bitwig Studio,partial: controller scripting API (JS),"WAV, MIDI",App paid,Unknown,Guide mostly,,UNVERIFIED
 Audio production / DAWs,Ardour,"Y: Lua scripting, open source","WAV, MIDI, AAF import",No,GPL,No,,UNVERIFIED
@@ -50,7 +50,7 @@ Image generation,Google Imagen / Gemini,Y: Gemini API (Imagen),PNG,Paid per imag
 Image generation,Meta AI image,N: no public image API known,PNG,n/a,Meta terms,Guide only,,UNVERIFIED
 Image generation,Grok Imagine (xAI),Y: xAI API,"PNG, MP4",Paid per use,xAI terms,Credit spend,,UNVERIFIED
 Image generation,Recraft,Y: API,"SVG, PNG",Paid,Unknown,Credit spend,,UNVERIFIED
-Image generation,Playground,partial,PNG,Unknown,Unknown,Unknown,,UNVERIFIED
+Image generation,Playground,N: no self-serve API; select business partners only (Pro Plus on request),PNG,Paid/partner only,Unknown,Yes (no public API),Sources: help.playgroundai.com article 6861708 ; playground.com/pricing,"VERIFIED (2 sources, 2026-10-20)"
 Image generation,ComfyUI (local),"Y: local HTTP API, open source","PNG, workflow JSON",No (local GPU),GPL,No (needs GPU),,UNVERIFIED
 AI video,Runway,Y: connected connector,MP4,Generation spends credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
 AI video,Luma (Dream Machine/Ray),"Y: API, pay-as-you-go ($0.15+ per 5 s)",MP4,Yes,API terms,Paid,,VERIFIED (vendor docs 2026-10-15)
@@ -63,7 +63,7 @@ AI video,Google Veo,Y: Gemini API / Vertex AI,MP4,Paid,Google API terms,Paid,,UN
 AI video,Synthesia,Y: API,MP4,Paid plans,Unknown,Paid,,UNVERIFIED
 AI video,HeyGen,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
 AI video,D-ID,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
-AI video,Haiper,partial,MP4,Unknown,Unknown,Unknown,,UNVERIFIED
+AI video,Haiper,N: consumer app shut Feb 2025; enterprise/B2B only,MP4,Enterprise only,Unknown,Yes (no public access),Sources: haiper consumer shutdown reported Feb 2025 (techraisal.com/blog/haiper-ai-is-down-best-free-and-paid-alternatives/ ; reddit r/haiper 2025-02-02),"VERIFIED (2 sources, 2026-10-20)"
 AI video,Kaiber,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
 Animation / 3D / motion,Blender,Y: built-in Python API (bpy),"glTF, FBX, OBJ, USD, Alembic","No (free, open source)",GPL,No,,VERIFIED (vendor docs 2026-10-15)
 Animation / 3D / motion,Adobe After Effects,partial: ExtendScript/CEP (UXP in progress),"AEP, MOV",App paid,Adobe terms,Guide mostly,,UNVERIFIED
@@ -78,7 +78,7 @@ Animation / 3D / motion,LottieFiles,Y: API,Lottie JSON,Free tier,Unknown,Unknown
 Animation / 3D / motion,Toon Boom Harmony,partial: scripting,"SWF, PNG seq",App paid,Unknown,Local only,,UNVERIFIED
 Animation / 3D / motion,Synfig,partial: open source,SIF XML,No,GPL,No,,UNVERIFIED
 Animation / 3D / motion,Moho,partial: Lua scripting,MOHO,App paid,Unknown,Local only,,UNVERIFIED
-Animation / 3D / motion,Adobe Animate,partial: JSFL,"FLA, SVG",App paid,Unknown,Guide mostly,,UNVERIFIED
+Animation / 3D / motion,Adobe Animate,partial: JSFL,"FLA, SVG",App paid,Unknown,Guide mostly,"Maintenance mode since Feb 2026 (security/bug fixes only, no new features), still sold and not discontinued. Sources: helpx.adobe.com/animate/kb/maintenance-mode.html ; community.adobe.com announcement 2026-02-03. JSFL API itself not yet checked.",UNVERIFIED
 Graphics / design,Canva,Y: Connect API + Apps SDK (connected),"PNG, JPEG, PDF, MP4",Some features need paid/Enterprise; public integrations need Canva review,Canva review,No (via user OAuth),,VERIFIED (2 sources)
 Graphics / design,Figma,"Y: REST API, OAuth2 or tokens","SVG, PNG, PDF",Not stated as paid,Figma API terms,No,,VERIFIED (vendor docs 2026-10-15)
 Graphics / design,Adobe Photoshop,Y: UXP plugins; Photoshop API (Firefly Services),"PSD, PNG, TIFF",App/API paid,Adobe terms,Local via UXP,,UNVERIFIED
@@ -108,7 +108,7 @@ Storage / transfer hubs,Box,Y: API,Any,Free tier,Box terms,No,,UNVERIFIED
 Storage / transfer hubs,OneDrive,Y: Microsoft Graph,Any,Free tier,Microsoft terms,No,,UNVERIFIED
 Storage / transfer hubs,Google Drive,"Y: Drive API, user OAuth",Any,Free tier (15 GB),Google API terms; OAuth app verification for some scopes,No (via user OAuth),,UNVERIFIED
 Storage / transfer hubs,iCloud Drive,N: no public file API,Any,n/a,Apple terms,Guide only,,UNVERIFIED
-Storage / transfer hubs,WeTransfer,partial: public API status not found,Any,Unknown,Unknown,Unknown,,UNVERIFIED (search found no API docs)
+Storage / transfer hubs,WeTransfer,N: Public API retired (disabled May 2022); only Enterprise activity-log API,Any,n/a,Unknown,Yes (no public API),Sources: help.wetransfer.com Integrations 'We've retired our Public API' ; getfreeapis.com/apis/wetransfer,"VERIFIED (2 sources, 2026-10-20)"
 Storage / transfer hubs,MASV,Y: API,Any,Paid per GB,Unknown,Paid,,UNVERIFIED
 Storage / transfer hubs,Frame.io,see Video editing,Any,Needs V4 account,Adobe terms,No,,VERIFIED (2 sources)
 Storage / transfer hubs,pCloud,Y: API,Any,Free tier,Unknown,Unknown,,UNVERIFIED

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.7 (2026-10-20)
+- Allowlist accuracy fixes (each with two sources, listed in the row notes): HitFilm discontinued by Artlist (15 Jan 2025); Haiper consumer app shut (Feb 2025), enterprise only; WeTransfer Public API retired (disabled May 2022); Pro Tools Scripting SDK (PTSL) is free to any Avid account holder, not partner-only; Playground has no self-serve API (partner only).
+- Adobe Animate: note added that it is in maintenance mode since Feb 2026 (still sold, no new features). Its JSFL API is still not yet checked.
+- 30 of 138 tools now checked; 108 not yet checked (README and TRANSLATIONS counts updated).
+- Data and docs only; no behavior changes.
+
 ## 1.0.6 (2026-10-20)
 - TRANSLATIONS.md: each of the 23 languages now includes this plugin's specific limits list (from the README's "Honest assessment: what this plugin cannot do" section) plus the marketplace status. Machine translations, not reviewed by native speakers.
 - Docs only; no behavior changes.
