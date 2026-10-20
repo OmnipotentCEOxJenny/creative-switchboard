@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.8 (2026-10-20)
+- Allowlist check batch (sources in each row's notes). Two-source VERIFIED: Kdenlive (native OTIO import and export since 25.04), Affinity (now free with a Canva account; in-app JS scripting SDK), Kaiber (no public API), Mubert (paid, no free tier), Twitch (no upload API since Feb 2022), Leonardo.ai and Ideogram (paid per use), Dailymotion (free upload API).
+- Corrected from one source and still marked UNVERIFIED: Rumble (upload API for Rumble PRO only), Audiomack (no public upload API found), Otter.ai (API for Enterprise only), Kapwing (no public REST API, plugin API only), Veed (public REST API exists).
+- 38 of 138 tools now checked; 100 not yet checked.
+- Data and docs only; no behavior changes.
+
 ## 1.0.7 (2026-10-20)
 - Allowlist accuracy fixes (each with two sources, listed in the row notes): HitFilm discontinued by Artlist (15 Jan 2025); Haiper consumer app shut (Feb 2025), enterprise only; WeTransfer Public API retired (disabled May 2022); Pro Tools Scripting SDK (PTSL) is free to any Avid account holder, not partner-only; Playground has no self-serve API (partner only).
 - Adobe Animate: note added that it is in maintenance mode since Feb 2026 (still sold, no new features). Its JSFL API is still not yet checked.
