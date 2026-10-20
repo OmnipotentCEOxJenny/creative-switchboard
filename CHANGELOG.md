@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.13 (2026-10-20)
+- Allowlist complete: all 138 tools checked with two sources (sources in each row's notes).
+- YouTube: the official videos.insert reference (updated 2026-10-15) says uploads from unverified API projects are not restricted to private. The upload quota is 100 per day. The row is no longer a partial blocker.
+- Clipchamp: no editing API; Microsoft Graph Files API only for basic video operations.
+- Studio One: no official scripting API; PreSonus offers plug-in extensions, ARA and DAWproject.
+- LMMS: GPL-2.0, no scripting API; the lmms render/rendertracks CLI handles headless export to WAV/FLAC/OGG/MP3.
+- Boomy: API by application only via Boomy Corporation, no self-serve access or published pricing.
+- Data and docs only; no behavior changes.
+
 ## 1.0.12 (2026-10-20)
 - Allowlist pass finished: 133 of 138 tools checked with two sources (sources in each row's notes); 5 remain UNVERIFIED with the reason stated: Clipchamp and Studio One (one source each), LMMS (no primary source opened), Boomy (API page unreadable), YouTube (sources conflict on unverified-project upload privacy).
 - Corrections: Meta AI image now has a paid public API (Muse Image, $0.01/image); pCloud new app creation is disabled (hard blocker for new integrations); Filmora has no editing API (separate Wondershare AILab API); Cubase/Nuendo API is controller-only; Threads API supports video posts.

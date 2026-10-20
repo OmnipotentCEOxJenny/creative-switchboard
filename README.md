@@ -16,7 +16,7 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 - 2026-10-15: allowlist of 138 tools in 10 categories; 25 checked against vendor docs, a second source or a connected connector.
 
 **Pending**
-- 5 tools are not yet checked (Clipchamp, LMMS, Studio One, Boomy, YouTube); verify each against the vendor's docs before relying on it.
+- All 138 tools are checked with two sources each (as of 2026-10-20); vendor terms change, so re-check before relying on a row.
 - How the counts fit: 138 unique tools (139 rows; Frame.io is listed twice). At launch 25 were checked and 113 were not (25 + 113 = 138). Each check moves a tool from "not yet checked" to "checked"; the total stays 138.
 - Cloud tools need the user's own sign-in (OAuth or API key); nothing connects without it.
 - Vimeo (free accounts need manual upload-access approval, up to 5 business days) and TikTok (unaudited apps post privately only; public posting needs an audit) have review delays.
@@ -87,7 +87,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | VEGAS Pro | Y: scripting API (C#) | checked |
 | HitFilm | N: DISCONTINUED by Artlist 15 Jan 2025; no new licenses, downloads or support | checked |
 | Descript | Y: Descript API, open beta for all users since 16 Apr 2026 (token in Settings) | checked |
-| Clipchamp | N: Microsoft, no public API known | not yet checked |
+| Clipchamp | N: no Clipchamp editing API; Microsoft 365 video ops via Microsoft Graph Files API only | checked |
 | Filmora | N for editing; separate Wondershare AILab API (image/audio/video AI tasks, paid points) | checked |
 | Frame.io (review) | Y: V4 REST API, OAuth via Adobe IMS | checked |
 
@@ -104,8 +104,8 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Cubase / Nuendo | partial: MIDI Remote API (ES5 JavaScript controller scripts only) | checked |
 | Bitwig Studio | partial: controller API in JavaScript (.js) and Java (.bwextension) | checked |
 | Ardour | Y: Lua scripting, open source | checked |
-| LMMS | partial: open source | not yet checked |
-| Studio One | N: no officially documented public scripting API | not yet checked |
+| LMMS | partial: no scripting API; CLI render/rendertracks for headless export | checked |
+| Studio One | N: no official public scripting API (internal, undocumented); official dev offerings are plug-in extensions, ARA, DAWproject | checked |
 | BandLab | N: no public API known | checked |
 | Adobe Audition | partial: CEP/ExtendScript (legacy) | checked |
 
@@ -119,7 +119,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Mubert | Y: self-serve REST API | checked |
 | Soundraw | Y: self-serve API | checked |
 | AIVA | N | checked |
-| Boomy | unclear: boomy.com/api-docs exists but content not readable | not yet checked |
+| Boomy | partial: API by application only (Boomy Corporation), no public self-serve API or docs | checked |
 | Beatoven.ai | partial: API keys issued on request | checked |
 | Loudly | Y: Music API (self-serve developer portal) | checked |
 
@@ -231,7 +231,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | SoundCloud | Y: API upload via OAuth | checked |
 | Spotify for Artists | N: no upload API; distributors only | checked |
 | Bandcamp | partial: API for labels/partners on request | checked |
-| YouTube | Y: YouTube Data API upload, user OAuth | not yet checked |
+| YouTube | Y: YouTube Data API upload, user OAuth | checked |
 | Instagram / Reels | Y: Instagram Graph API publishing (professional accounts) | checked |
 | Facebook | Y: Graph API video publishing to Pages | checked |
 | Threads | Y: Threads API publishing incl. media_type=VIDEO | checked |
@@ -267,7 +267,7 @@ MIT. See `LICENSE`. Copyright Rob Domaine / Omnipotent Media LLC.
 Written to be fully transparent. If something here is wrong or out of date, please open an issue.
 
 - It does not control creative apps by itself. It routes work through open file formats, Dropbox and each vendor's official methods, and cloud tools need your own sign-in.
-- 5 of the 138 allowlisted tools are not yet checked against vendor docs.
+- 0 of the 138 allowlisted tools are not yet checked against vendor docs (all 138 have two sources as of 2026-10-20).
 - AAF: files can be written, but reading them back with the free tools failed in testing, so AAF output is UNVERIFIED. Prefer OTIO or FCPXML.
 - EDL keeps only one track; other tracks (such as audio) are dropped without an error.
 - Premiere Pro and Final Cut Pro are export-only routes. DaVinci Resolve scripting needs the paid Studio version. CapCut has no public API found, Spotify has no upload API, and SoundCloud's API needs a paid plan.
