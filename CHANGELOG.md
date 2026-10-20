@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.10 (2026-10-20)
+- Corrections, two sources each: Subtitle Edit is MIT (CLI is LGPL-3.0), not GPL; LottieFiles' own API is "coming soon" (Lottie downloads via the IconScout API, free plan 250 credits/month); Loudly has a self-serve paid API; Spline code export needs Pro.
+- Second sources and pricing for the earlier single-source notes: Deepgram ($200 free credit; expiry wording differs between pages), D-ID, Rev, MEGA (20 GB free, BSD SDK).
+- Confirmed with two sources: Aegisub, Shotcut, GIMP 3, Krita, Penpot, REAPER ($60/$225 license), Ardour (GPL-2.0+), PeerTube, Archive.org, ComfyUI (GPL-3.0).
+- One source only, still UNVERIFIED: OpenShot (libopenshot is LGPL-3.0); pCloud (new app registration reported disabled).
+- 73 of 138 tools now checked; 65 not yet checked.
+- Data and docs only; no behavior changes.
+
 ## 1.0.9 (2026-10-20)
 - Second sources added for Rumble, Audiomack, Otter.ai, Kapwing and Veed (now VERIFIED; Veed priced per use).
 - Corrections, two sources each: Descript API in open beta for all users since 16 Apr 2026; Resemble AI no longer sells voice generation or cloning; Rive editor free but production export needs the $9/mo Cadet plan.
