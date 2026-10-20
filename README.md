@@ -1,10 +1,10 @@
 # Creative Switchboard
 
-![Creative Switchboard logo](assets/logo.png)
-
 Creative Switchboard is a free switchboard that routes projects between creative tools: video editing, audio, music generation, image generation, animation and 3D, design, voiceover and subtitles, mastering and more. It moves work through open formats (OTIO, FCPXML, AAF, EDL, WAV and others), a Dropbox hub and each vendor's official, allowed methods. Social platforms are only downstream posting targets; the switchboard works upstream, between the tools where the work is made.
 
 Think of it like a surge protector for creative software, worded truthfully: open formats and local files need no vendor permission, while cloud tools connect only through your own sign-in and the vendor's official methods.
+
+![Creative Switchboard logo](assets/logo.png)
 
 ## Project status: done, pending, uncertain
 **Done**
@@ -252,7 +252,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 Free tools only by default (OpenTimelineIO, local apps, Dropbox free plan). No paid APIs required.
 
 ## Languages
-The AI answers in the user's language and keeps commands and file names unchanged. Short summaries in 20 languages are in [TRANSLATIONS.md](TRANSLATIONS.md): Spanish, French, Portuguese, German, Italian, Chinese (Simplified), Japanese, Korean, Hindi, Arabic, Russian, Indonesian, Turkish, Vietnamese, Bengali, Swahili, Ukrainian, Polish, Dutch and Tagalog. They are machine translations, not yet reviewed by a native speaker.
+The AI answers in the user's language and keeps commands, file names and status labels unchanged. Title, description and honest-assessment summaries in 23 languages are in [TRANSLATIONS.md](TRANSLATIONS.md): Español, Français, Português, Deutsch, Italiano, Nederlands, Polski, Русский, Українська, Türkçe, العربية, עברית, فارسی, हिन्दी, বাংলা, اردو, 简体中文, 日本語, 한국어, Bahasa Indonesia, Tiếng Việt, Kiswahili, Tagalog / Filipino. They are machine translations, not yet reviewed by native speakers; the English text is authoritative.
 
 ## Feedback and reviews
 - Reviews and feedback: [Discussions](https://github.com/OmnipotentCEOxJenny/creative-switchboard/discussions)
@@ -261,3 +261,17 @@ The AI answers in the user's language and keeps commands and file names unchange
 
 ## License
 MIT. See `LICENSE`. Copyright Rob Domaine / Omnipotent Media LLC.
+
+## Honest assessment: what this plugin cannot do
+Written to be fully transparent. If something here is wrong or out of date, please open an issue.
+
+- It does not control creative apps by itself. It routes work through open file formats, Dropbox and each vendor's official methods, and cloud tools need your own sign-in.
+- 113 of the 138 allowlisted tools are not yet checked against vendor docs.
+- AAF: files can be written, but reading them back with the free tools failed in testing, so AAF output is UNVERIFIED. Prefer OTIO or FCPXML.
+- EDL keeps only one track; other tracks (such as audio) are dropped without an error.
+- Premiere Pro and Final Cut Pro are export-only routes. DaVinci Resolve scripting needs the paid Studio version. CapCut has no public API found, Spotify has no upload API, and SoundCloud's API needs a paid plan.
+- It never runs credit-spending generation (Runway, Krea, ElevenLabs) without your approval.
+- Marketplace: v1.0.3 submitted 2026-10-15 and still pending review; it is not an approved listing yet.
+- Translations: the 23 translated summaries in [TRANSLATIONS.md](TRANSLATIONS.md) are machine-made and have not been reviewed by native speakers. The English text is authoritative.
+- It is not legal advice and cannot guarantee that any particular use is lawful; you remain responsible for how you use it.
+- Rules and compliance: it is built to follow all local, county, state and federal laws and every platform's rules. It uses no paid services, never bypasses logins, paywalls, CAPTCHAs or access controls, and never claims a feature it does not have.

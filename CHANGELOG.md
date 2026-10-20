@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 (2026-10-20)
+- README follows the shared template: title, plain description, logo, existing content (Rob Domaine's four pillars unchanged), and a new final section "Honest assessment: what this plugin cannot do" listing real limits and the compliance statement.
+- TRANSLATIONS.md now covers the same 23 languages as every Omnipotent plugin (title, description and honest-assessment summary for each), all marked as machine translations not reviewed by native speakers.
+- Docs only; no behavior changes.
+
 ## 1.0.4 (2026-10-20)
 - Install steps pin the tested versions: opentimelineio 0.18.1, otio-fcpx-xml-adapter 1.0.0, otio-cmx3600-adapter 1.0.0, otio-aaf-adapter 2.0.0 (Python 3.13).
 - Found in testing: AAF output is written but `otiostat` cannot read it back (pyaaf2 error). AAF is now marked UNVERIFIED in the skill and README; OTIO or FCPXML recommended.
