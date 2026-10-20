@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.12 (2026-10-20)
+- Allowlist pass finished: 133 of 138 tools checked with two sources (sources in each row's notes); 5 remain UNVERIFIED with the reason stated: Clipchamp and Studio One (one source each), LMMS (no primary source opened), Boomy (API page unreadable), YouTube (sources conflict on unverified-project upload privacy).
+- Corrections: Meta AI image now has a paid public API (Muse Image, $0.01/image); pCloud new app creation is disabled (hard blocker for new integrations); Filmora has no editing API (separate Wondershare AILab API); Cubase/Nuendo API is controller-only; Threads API supports video posts.
+- Second sources added for every earlier one-source row except Clipchamp and Studio One.
+- Data and docs only; no behavior changes.
+
 ## 1.0.11 (2026-10-20)
 - Important status changes, two sources each: OpenAI Sora API shut down on 24 Sep 2026 (now a hard blocker); Google Veo 3.1 preview models on the Gemini API shut down 22 Oct 2026 (replacement gemini-omni-1.1-flash), paid only; Avid is not onboarding new Media Composer Extensions partners; Google Imagen is paid only (no free tier).
 - Pricing or access confirmed with two sources: Grok Imagine, X (pay-per-use, no free tier), Adobe Firefly and Photoshop API (enterprise contract), Adobe Express (add-ons SDK; Express API beta), After Effects (UXP private beta), Beatoven.ai, Houdini Apprentice, Unreal Engine royalty, Backblaze B2, OneDrive, LinkedIn, Pinterest, DistroKid, Apple Music, Ableton (Max for Live), Bitwig, FL Studio, Cinema 4D, Toon Boom Harmony.
