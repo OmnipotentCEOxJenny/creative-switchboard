@@ -26,6 +26,15 @@ Los cuatro pilares de Rob Domaine se aplican siempre. Se mantienen abajo con su 
 
 **Evaluación honesta:** este plugin tiene límites, detallados en el README en inglés (sección "Honest assessment: what this plugin cannot do"). No usa servicios de pago, nunca elude inicios de sesión ni reglas, y cumple todas las leyes y normas de las plataformas. Traducción automática, no revisada por un hablante nativo.
 
+**Límites específicos:**
+- No controla las aplicaciones por sí mismo; las herramientas en la nube requieren su propio inicio de sesión.
+- 113 de las 138 herramientas listadas aún no están verificadas.
+- Los archivos AAF se pueden escribir pero no volver a leer, así que la salida AAF es UNVERIFIED.
+- EDL conserva una sola pista.
+- Premiere Pro y Final Cut Pro solo exportan; los scripts de DaVinci Resolve requieren la versión de pago Studio.
+- Nunca gasta créditos de generación sin su aprobación.
+- Revisión del marketplace pendiente; aún no es una publicación aprobada.
+
 ## Français (`fr`)
 **Creative Switchboard**
 *Traduction automatique, pas encore relue par un locuteur natif.*
@@ -39,6 +48,15 @@ L'assistant répond dans votre langue ; les commandes et noms de fichiers resten
 Les quatre piliers de Rob Domaine s'appliquent toujours. Ils figurent ci-dessous dans sa formulation originale en anglais.
 
 **Évaluation honnête :** ce plugin a des limites, détaillées dans le README anglais (section "Honest assessment: what this plugin cannot do"). Il n'utilise aucun service payant, ne contourne jamais les connexions ni les règles, et respecte toutes les lois et règles des plateformes. Traduction automatique, non relue par un locuteur natif.
+
+**Limites spécifiques :**
+- Ne pilote pas les applications lui-même ; les outils cloud exigent votre propre connexion.
+- 113 des 138 outils listés ne sont pas encore vérifiés.
+- Les fichiers AAF peuvent être écrits mais pas relus, donc la sortie AAF est UNVERIFIED.
+- L'EDL ne garde qu'une seule piste.
+- Premiere Pro et Final Cut Pro : export uniquement ; les scripts DaVinci Resolve exigent la version payante Studio.
+- Ne dépense jamais de crédits de génération sans votre accord.
+- Examen sur le marketplace en attente ; pas encore une fiche approuvée.
 
 ## Português (`pt`)
 **Creative Switchboard**
@@ -54,6 +72,15 @@ Os quatro pilares de Rob Domaine sempre se aplicam. Eles estão abaixo na redaç
 
 **Avaliação honesta:** este plugin tem limites, detalhados no README em inglês (seção "Honest assessment: what this plugin cannot do"). Não usa serviços pagos, nunca contorna logins nem regras e cumpre todas as leis e regras das plataformas. Tradução automática, não revisada por um falante nativo.
 
+**Limites específicos:**
+- Não controla os aplicativos sozinho; ferramentas na nuvem exigem seu próprio login.
+- 113 das 138 ferramentas listadas ainda não foram verificadas.
+- Arquivos AAF podem ser gravados, mas não lidos de volta; por isso a saída AAF é UNVERIFIED.
+- EDL mantém apenas uma faixa.
+- Premiere Pro e Final Cut Pro só exportam; scripts do DaVinci Resolve exigem a versão paga Studio.
+- Nunca gasta créditos de geração sem sua aprovação.
+- Análise do marketplace pendente; ainda não é uma listagem aprovada.
+
 ## Deutsch (`de`)
 **Creative Switchboard**
 *Maschinelle Übersetzung, noch nicht von Muttersprachlern geprüft.*
@@ -67,6 +94,15 @@ Der Assistent antwortet in Ihrer Sprache; Befehle und Dateinamen bleiben auf Eng
 Rob Domaines vier Grundsätze gelten immer. Sie stehen unten in seinem englischen Originalwortlaut.
 
 **Ehrliche Einschätzung:** Dieses Plugin hat Grenzen, die im englischen README aufgeführt sind (Abschnitt "Honest assessment: what this plugin cannot do"). Es nutzt keine kostenpflichtigen Dienste, umgeht nie Anmeldungen oder Regeln und hält alle Gesetze und Plattformregeln ein. Maschinelle Übersetzung, nicht von Muttersprachlern geprüft.
+
+**Konkrete Grenzen:**
+- Steuert Apps nicht selbst; Cloud-Tools brauchen Ihre eigene Anmeldung.
+- 113 der 138 gelisteten Tools sind noch nicht geprüft.
+- AAF-Dateien lassen sich schreiben, aber nicht zurücklesen; AAF-Ausgabe ist daher UNVERIFIED.
+- EDL behält nur eine Spur.
+- Premiere Pro und Final Cut Pro nur per Export; DaVinci-Resolve-Skripting braucht die kostenpflichtige Studio-Version.
+- Verbraucht nie Generierungs-Credits ohne Ihre Zustimmung.
+- Marketplace-Prüfung ausstehend; noch kein genehmigter Eintrag.
 
 ## Italiano (`it`)
 **Creative Switchboard**
@@ -82,6 +118,15 @@ I quattro pilastri di Rob Domaine valgono sempre. Sono riportati sotto nella sua
 
 **Valutazione onesta:** questo plugin ha dei limiti, elencati nel README in inglese (sezione "Honest assessment: what this plugin cannot do"). Non usa servizi a pagamento, non aggira mai login o regole e rispetta tutte le leggi e le regole delle piattaforme. Traduzione automatica, non revisionata da un madrelingua.
 
+**Limiti specifici:**
+- Non controlla le app da solo; gli strumenti cloud richiedono il tuo accesso.
+- 113 dei 138 strumenti elencati non sono ancora verificati.
+- I file AAF si possono scrivere ma non rileggere, quindi l'output AAF è UNVERIFIED.
+- L'EDL conserva una sola traccia.
+- Premiere Pro e Final Cut Pro solo in esportazione; gli script di DaVinci Resolve richiedono la versione a pagamento Studio.
+- Non spende mai crediti di generazione senza la tua approvazione.
+- Revisione del marketplace in attesa; non è ancora una scheda approvata.
+
 ## 简体中文 (`zh`)
 **Creative Switchboard**
 *机器翻译，尚未经母语人士审阅。*
@@ -95,6 +140,15 @@ Creative Switchboard 通过开放文件格式、Dropbox 中转和各厂商的官
 Rob Domaine 的四大原则始终适用，下方保留其英文原文。
 
 **诚实评估：**本插件有其局限，详见英文 README（"Honest assessment: what this plugin cannot do" 一节）。它不使用任何付费服务，从不绕过登录或规则，并遵守所有法律和平台规则。机器翻译，未经母语人士审校。
+
+**具体局限：**
+- 本身不控制应用；云端工具需要您自己登录。
+- 所列 138 个工具中有 113 个尚未核查。
+- AAF 文件可以写出但无法读回，因此 AAF 输出为 UNVERIFIED。
+- EDL 只保留一条轨道。
+- Premiere Pro 和 Final Cut Pro 仅支持导出；DaVinci Resolve 脚本需要付费 Studio 版。
+- 未经您同意绝不消耗生成额度。
+- 市场审核尚在进行，目前还不是已批准的上架项目。
 
 ## 日本語 (`ja`)
 **Creative Switchboard**
@@ -110,6 +164,15 @@ Rob Domaine の4つの柱は常に適用されます。下記に英語の原文�
 
 **正直な評価：**このプラグインには限界があり、英語の README（"Honest assessment: what this plugin cannot do" の節）に記載しています。有料サービスは使わず、ログインや規則を回避することはなく、すべての法律とプラットフォームの規則に従います。機械翻訳であり、ネイティブスピーカーの確認は受けていません。
 
+**具体的な制限：**
+- アプリを直接操作はしません。クラウドツールにはご自身のログインが必要です。
+- 掲載している 138 ツールのうち 113 は未確認です。
+- AAF ファイルは書き出せますが読み戻せないため、AAF 出力は UNVERIFIED です。
+- EDL は 1 トラックのみ保持します。
+- Premiere Pro と Final Cut Pro は書き出しのみ。DaVinci Resolve のスクリプトには有料の Studio 版が必要です。
+- 承認なしに生成クレジットを使うことはありません。
+- マーケットプレイスの審査待ちで、まだ承認済みの掲載ではありません。
+
 ## 한국어 (`ko`)
 **Creative Switchboard**
 *기계 번역이며 아직 원어민의 검토를 받지 않았습니다.*
@@ -123,6 +186,15 @@ Creative Switchboard는 개방형 파일 형식, Dropbox 허브, 각 공급업�
 Rob Domaine의 네 가지 원칙은 항상 적용됩니다. 아래에 영어 원문 그대로 실었습니다.
 
 **정직한 평가:** 이 플러그인에는 한계가 있으며 영어 README("Honest assessment: what this plugin cannot do" 섹션)에 나와 있습니다. 유료 서비스를 쓰지 않고, 로그인이나 규칙을 절대 우회하지 않으며, 모든 법률과 플랫폼 규칙을 따릅니다. 기계 번역이며 원어민 검토를 거치지 않았습니다.
+
+**구체적인 한계:**
+- 앱을 직접 제어하지 않으며, 클라우드 도구는 본인 로그인이 필요합니다.
+- 목록의 도구 138개 중 113개는 아직 확인되지 않았습니다.
+- AAF 파일은 쓸 수 있지만 다시 읽을 수 없어 AAF 출력은 UNVERIFIED입니다.
+- EDL은 트랙 하나만 유지합니다.
+- Premiere Pro와 Final Cut Pro는 내보내기 전용이며, DaVinci Resolve 스크립팅은 유료 Studio 버전이 필요합니다.
+- 승인 없이 생성 크레딧을 절대 쓰지 않습니다.
+- 마켓플레이스 심사 대기 중이며 아직 승인된 목록이 아닙니다.
 
 ## हिन्दी (`hi`)
 **Creative Switchboard**
@@ -138,6 +210,15 @@ Rob Domaine के चार स्तंभ हमेशा लागू हो
 
 **ईमानदार आकलन:** इस प्लगइन की सीमाएँ हैं, जो अंग्रेज़ी README में दी गई हैं ("Honest assessment: what this plugin cannot do" अनुभाग)। यह कोई सशुल्क सेवा नहीं लेता, लॉगिन या नियमों को कभी नहीं लांघता, और सभी कानूनों व प्लेटफ़ॉर्म नियमों का पालन करता है। मशीनी अनुवाद, किसी मूल वक्ता द्वारा जाँचा नहीं गया।
 
+**विशिष्ट सीमाएँ:**
+- यह ऐप्स को खुद नियंत्रित नहीं करता; क्लाउड टूल्स के लिए आपका अपना लॉगिन चाहिए।
+- सूची के 138 में से 113 टूल्स अभी जाँचे नहीं गए।
+- AAF फ़ाइलें लिखी जा सकती हैं पर वापस पढ़ी नहीं जा सकतीं, इसलिए AAF आउटपुट UNVERIFIED है।
+- EDL केवल एक ट्रैक रखता है।
+- Premiere Pro और Final Cut Pro केवल एक्सपोर्ट; DaVinci Resolve स्क्रिप्टिंग के लिए सशुल्क Studio संस्करण चाहिए।
+- आपकी अनुमति के बिना कभी जनरेशन क्रेडिट खर्च नहीं करता।
+- मार्केटप्लेस समीक्षा लंबित है; यह अभी स्वीकृत लिस्टिंग नहीं है।
+
 ## العربية (`ar`)
 **Creative Switchboard**
 *ترجمة آلية، لم يراجعها متحدث أصلي بعد.*
@@ -151,6 +232,15 @@ Rob Domaine के चार स्तंभ हमेशा लागू हो
 تنطبق ركائز Rob Domaine الأربع دائمًا، وهي مذكورة أدناه بصياغته الإنجليزية الأصلية.
 
 **تقييم صادق:** لهذه الإضافة حدود مذكورة في ملف README الإنجليزي (قسم "Honest assessment: what this plugin cannot do"). لا تستخدم خدمات مدفوعة، ولا تتجاوز تسجيل الدخول أو القواعد أبدًا، وتلتزم بجميع القوانين وقواعد المنصات. ترجمة آلية لم يراجعها متحدث أصلي.
+
+**حدود محددة:**
+- لا تتحكم في التطبيقات بنفسها؛ أدوات السحابة تتطلب تسجيل دخولك الخاص.
+- لم يُتحقق بعد من 113 أداة من أصل 138 مدرجة.
+- يمكن كتابة ملفات AAF لكن لا يمكن قراءتها مجددًا، لذا مخرجات AAF هي UNVERIFIED.
+- ملف EDL يحتفظ بمسار واحد فقط.
+- Premiere Pro وFinal Cut Pro للتصدير فقط؛ وبرمجة DaVinci Resolve تتطلب نسخة Studio المدفوعة.
+- لا تنفق أبدًا أرصدة التوليد دون موافقتك.
+- مراجعة المتجر قيد الانتظار؛ ليست قائمة معتمدة بعد.
 
 ## Русский (`ru`)
 **Creative Switchboard**
@@ -166,6 +256,15 @@ Creative Switchboard переносит проекты между творчес
 
 **Честная оценка:** у плагина есть ограничения, они перечислены в английском README (раздел "Honest assessment: what this plugin cannot do"). Он не использует платные сервисы, никогда не обходит входы и правила и соблюдает все законы и правила платформ. Машинный перевод, не проверен носителем языка.
 
+**Конкретные ограничения:**
+- Сам не управляет приложениями; облачным инструментам нужен ваш собственный вход.
+- 113 из 138 перечисленных инструментов ещё не проверены.
+- Файлы AAF можно записать, но нельзя прочитать обратно, поэтому вывод AAF — UNVERIFIED.
+- EDL сохраняет только одну дорожку.
+- Premiere Pro и Final Cut Pro — только экспорт; скрипты DaVinci Resolve требуют платной версии Studio.
+- Никогда не тратит кредиты генерации без вашего согласия.
+- Проверка в маркетплейсе ещё идёт; это пока не одобренная публикация.
+
 ## Bahasa Indonesia (`id`)
 **Creative Switchboard**
 *Terjemahan mesin, belum ditinjau oleh penutur asli.*
@@ -179,6 +278,15 @@ Asisten menjawab dalam bahasa Anda; perintah dan nama file tetap dalam bahasa In
 Empat pilar Rob Domaine selalu berlaku. Pilar tersebut tercantum di bawah dalam kata-kata asli bahasa Inggrisnya.
 
 **Penilaian jujur:** plugin ini punya batasan, tercantum di README bahasa Inggris (bagian "Honest assessment: what this plugin cannot do"). Tidak memakai layanan berbayar, tidak pernah melewati login atau aturan, dan mematuhi semua hukum serta aturan platform. Terjemahan mesin, belum ditinjau penutur asli.
+
+**Batasan khusus:**
+- Tidak mengendalikan aplikasi sendiri; alat cloud membutuhkan login Anda sendiri.
+- 113 dari 138 alat yang terdaftar belum diperiksa.
+- File AAF bisa ditulis tetapi tidak bisa dibaca kembali, jadi keluaran AAF berstatus UNVERIFIED.
+- EDL hanya menyimpan satu trek.
+- Premiere Pro dan Final Cut Pro hanya ekspor; skrip DaVinci Resolve membutuhkan versi Studio berbayar.
+- Tidak pernah memakai kredit generasi tanpa persetujuan Anda.
+- Peninjauan marketplace masih menunggu; belum menjadi listing yang disetujui.
 
 ## Türkçe (`tr`)
 **Creative Switchboard**
@@ -194,6 +302,15 @@ Rob Domaine'in dört ilkesi her zaman geçerlidir. Aşağıda orijinal İngilizc
 
 **Dürüst değerlendirme:** bu eklentinin sınırları vardır; İngilizce README'de listelenmiştir ("Honest assessment: what this plugin cannot do" bölümü). Ücretli hizmet kullanmaz, oturum açmayı veya kuralları asla atlatmaz ve tüm yasalara ve platform kurallarına uyar. Makine çevirisidir, anadili konuşan biri tarafından incelenmemiştir.
 
+**Belirli sınırlar:**
+- Uygulamaları kendisi kontrol etmez; bulut araçları kendi oturumunuzu gerektirir.
+- Listelenen 138 aracın 113'ü henüz kontrol edilmedi.
+- AAF dosyaları yazılabilir ama geri okunamaz; bu yüzden AAF çıktısı UNVERIFIED'dır.
+- EDL yalnızca bir iz tutar.
+- Premiere Pro ve Final Cut Pro yalnızca dışa aktarım; DaVinci Resolve betikleri ücretli Studio sürümünü gerektirir.
+- Onayınız olmadan asla üretim kredisi harcamaz.
+- Marketplace incelemesi sürüyor; henüz onaylı bir liste değil.
+
 ## Tiếng Việt (`vi`)
 **Creative Switchboard**
 *Bản dịch máy, chưa được người bản ngữ kiểm tra.*
@@ -207,6 +324,15 @@ Trợ lý trả lời bằng ngôn ngữ của bạn; lệnh và tên tệp gi�
 Bốn trụ cột của Rob Domaine luôn được áp dụng. Chúng được giữ nguyên văn tiếng Anh ở bên dưới.
 
 **Đánh giá trung thực:** plugin này có giới hạn, được liệt kê trong README tiếng Anh (mục "Honest assessment: what this plugin cannot do"). Không dùng dịch vụ trả phí, không bao giờ vượt qua đăng nhập hay quy tắc, và tuân thủ mọi luật cùng quy định nền tảng. Bản dịch máy, chưa được người bản ngữ kiểm tra.
+
+**Giới hạn cụ thể:**
+- Không tự điều khiển ứng dụng; công cụ đám mây cần bạn tự đăng nhập.
+- 113 trong 138 công cụ được liệt kê chưa được kiểm tra.
+- Tệp AAF ghi được nhưng không đọc lại được, nên đầu ra AAF là UNVERIFIED.
+- EDL chỉ giữ một track.
+- Premiere Pro và Final Cut Pro chỉ xuất tệp; viết script cho DaVinci Resolve cần bản Studio trả phí.
+- Không bao giờ dùng tín dụng tạo nội dung khi chưa có sự đồng ý của bạn.
+- Đang chờ marketplace xét duyệt; chưa phải mục đã được phê duyệt.
 
 ## বাংলা (`bn`)
 **Creative Switchboard**
@@ -222,6 +348,15 @@ Rob Domaine-এর চারটি স্তম্ভ সবসময় প্�
 
 **সৎ মূল্যায়ন:** এই প্লাগইনের সীমাবদ্ধতা আছে, যা ইংরেজি README-তে তালিকাভুক্ত ("Honest assessment: what this plugin cannot do" অংশ)। এটি কোনো পেইড সেবা ব্যবহার করে না, কখনও লগইন বা নিয়ম এড়ায় না এবং সব আইন ও প্ল্যাটফর্মের নিয়ম মানে। যান্ত্রিক অনুবাদ, কোনো মাতৃভাষী পর্যালোচনা করেননি।
 
+**নির্দিষ্ট সীমাবদ্ধতা:**
+- নিজে অ্যাপ নিয়ন্ত্রণ করে না; ক্লাউড টুলে আপনার নিজের লগইন দরকার।
+- তালিকার 138টি টুলের 113টি এখনও যাচাই হয়নি।
+- AAF ফাইল লেখা যায় কিন্তু আবার পড়া যায় না, তাই AAF আউটপুট UNVERIFIED।
+- EDL শুধু একটি ট্র্যাক রাখে।
+- Premiere Pro ও Final Cut Pro শুধু এক্সপোর্ট; DaVinci Resolve স্ক্রিপ্টিংয়ে পেইড Studio সংস্করণ দরকার।
+- আপনার অনুমোদন ছাড়া কখনও জেনারেশন ক্রেডিট খরচ করে না।
+- মার্কেটপ্লেস পর্যালোচনা বাকি; এখনও অনুমোদিত তালিকা নয়।
+
 ## Kiswahili (`sw`)
 **Creative Switchboard**
 *Tafsiri ya mashine, bado haijakaguliwa na mzungumzaji asilia.*
@@ -235,6 +370,15 @@ Msaidizi hujibu kwa lugha yako; amri na majina ya faili hubaki kwa Kiingereza.
 Nguzo nne za Rob Domaine zinatumika kila wakati. Zimewekwa hapa chini kwa maneno yake asilia ya Kiingereza.
 
 **Tathmini ya kweli:** programu-jalizi hii ina mipaka, iliyoorodheshwa katika README ya Kiingereza (sehemu "Honest assessment: what this plugin cannot do"). Haitumii huduma za kulipia, haikwepi kamwe kuingia au sheria, na inafuata sheria zote na kanuni za majukwaa. Tafsiri ya mashine, haijakaguliwa na mzungumzaji asilia.
+
+**Mipaka mahususi:**
+- Haiendeshi programu yenyewe; zana za wingu zinahitaji uingie kwa akaunti yako.
+- Zana 113 kati ya 138 zilizoorodheshwa bado hazijakaguliwa.
+- Faili za AAF zinaweza kuandikwa lakini si kusomwa tena, hivyo matokeo ya AAF ni UNVERIFIED.
+- EDL huhifadhi wimbo mmoja tu.
+- Premiere Pro na Final Cut Pro ni kwa kuhamisha tu; hati za DaVinci Resolve zinahitaji toleo la kulipia la Studio.
+- Kamwe haitumii salio la kuzalisha bila idhini yako.
+- Ukaguzi wa marketplace bado unasubiriwa; bado si orodha iliyoidhinishwa.
 
 ## Українська (`uk`)
 **Creative Switchboard**
@@ -250,6 +394,15 @@ Creative Switchboard переносить проєкти між творчими
 
 **Чесна оцінка:** плагін має обмеження, їх перелічено в англійському README (розділ "Honest assessment: what this plugin cannot do"). Він не використовує платних сервісів, ніколи не обходить входи й правила та дотримується всіх законів і правил платформ. Машинний переклад, не перевірений носієм мови.
 
+**Конкретні обмеження:**
+- Сам не керує застосунками; хмарним інструментам потрібен ваш власний вхід.
+- 113 зі 138 перелічених інструментів ще не перевірено.
+- Файли AAF можна записати, але не прочитати назад, тож вивід AAF — UNVERIFIED.
+- EDL зберігає лише одну доріжку.
+- Premiere Pro і Final Cut Pro — лише експорт; скрипти DaVinci Resolve потребують платної версії Studio.
+- Ніколи не витрачає кредити генерації без вашої згоди.
+- Перевірка в маркетплейсі ще триває; це ще не схвалений запис.
+
 ## Polski (`pl`)
 **Creative Switchboard**
 *Tłumaczenie maszynowe, jeszcze niesprawdzone przez rodzimego użytkownika języka.*
@@ -263,6 +416,15 @@ Asystent odpowiada w Twoim języku; polecenia i nazwy plików pozostają po angi
 Cztery filary Roba Domaine'a obowiązują zawsze. Poniżej podano je w oryginalnym angielskim brzmieniu.
 
 **Uczciwa ocena:** ta wtyczka ma ograniczenia, opisane w angielskim README (sekcja "Honest assessment: what this plugin cannot do"). Nie korzysta z płatnych usług, nigdy nie omija logowania ani zasad i przestrzega wszystkich przepisów oraz zasad platform. Tłumaczenie maszynowe, niesprawdzone przez rodzimego użytkownika języka.
+
+**Konkretne ograniczenia:**
+- Nie steruje aplikacjami samodzielnie; narzędzia chmurowe wymagają Twojego logowania.
+- 113 ze 138 wymienionych narzędzi nie jest jeszcze sprawdzonych.
+- Pliki AAF można zapisać, ale nie odczytać ponownie, więc wynik AAF jest UNVERIFIED.
+- EDL zachowuje tylko jedną ścieżkę.
+- Premiere Pro i Final Cut Pro tylko przez eksport; skrypty DaVinci Resolve wymagają płatnej wersji Studio.
+- Nigdy nie wydaje kredytów generowania bez Twojej zgody.
+- Weryfikacja w marketplace w toku; to jeszcze nie zatwierdzona pozycja.
 
 ## Nederlands (`nl`)
 **Creative Switchboard**
@@ -278,6 +440,15 @@ De vier pijlers van Rob Domaine gelden altijd. Ze staan hieronder in zijn oorspr
 
 **Eerlijke beoordeling:** deze plug-in heeft beperkingen, beschreven in de Engelse README (sectie "Honest assessment: what this plugin cannot do"). Hij gebruikt geen betaalde diensten, omzeilt nooit logins of regels en volgt alle wetten en platformregels. Machinevertaling, niet nagekeken door een moedertaalspreker.
 
+**Specifieke beperkingen:**
+- Bestuurt apps niet zelf; cloudtools vereisen uw eigen login.
+- 113 van de 138 vermelde tools zijn nog niet gecontroleerd.
+- AAF-bestanden kunnen worden geschreven maar niet teruggelezen, dus AAF-uitvoer is UNVERIFIED.
+- EDL behoudt maar één spoor.
+- Premiere Pro en Final Cut Pro alleen via export; DaVinci Resolve-scripting vereist de betaalde Studio-versie.
+- Besteedt nooit generatiecredits zonder uw toestemming.
+- Marketplace-beoordeling loopt nog; nog geen goedgekeurde vermelding.
+
 ## Tagalog / Filipino (`tl`)
 **Creative Switchboard**
 *Pagsasaling makina, hindi pa nasusuri ng katutubong nagsasalita.*
@@ -292,12 +463,30 @@ Laging umiiral ang apat na haligi ni Rob Domaine. Nakasaad ang mga ito sa ibaba 
 
 **Tapat na pagtatasa:** may mga limitasyon ang plugin na ito, nakalista sa README sa Ingles (seksyong "Honest assessment: what this plugin cannot do"). Hindi ito gumagamit ng bayad na serbisyo, hindi kailanman lumalampas sa login o mga patakaran, at sumusunod sa lahat ng batas at patakaran ng platform. Pagsasaling makina, hindi pa nasusuri ng katutubong nagsasalita.
 
+**Mga tiyak na limitasyon:**
+- Hindi nito kinokontrol ang mga app nang mag-isa; kailangan ng sarili mong login ang mga cloud tool.
+- 113 sa 138 nakalistang tool ay hindi pa nasusuri.
+- Naisusulat ang mga AAF file pero hindi nababasa pabalik, kaya UNVERIFIED ang AAF output.
+- Isang track lang ang pinapanatili ng EDL.
+- Export lamang ang Premiere Pro at Final Cut Pro; kailangan ng bayad na Studio version ang scripting sa DaVinci Resolve.
+- Hindi kailanman gumagastos ng generation credits nang wala kang pahintulot.
+- Nakabinbin pa ang pagsusuri sa marketplace; hindi pa ito aprubadong listing.
+
 ## עברית (`he`)
 **Creative Switchboard**
 
 Creative Switchboard מעביר פרויקטים בין כלים יצירתיים (וידאו, אודיו, מוזיקה, תמונה, תלת־ממד, עיצוב) באמצעות פורמטים פתוחים, Dropbox כמרכז, והדרכים הרשמיות של כל ספק.
 
 **הערכה כנה:** לתוסף יש מגבלות, והן מפורטות ב-README באנגלית (סעיף "Honest assessment: what this plugin cannot do"). הוא אינו משתמש בשירותים בתשלום, לעולם אינו עוקף התחברות או כללים, ופועל לפי כל החוקים וכללי הפלטפורמות. תרגום מכונה, לא נבדק על ידי דובר שפת אם.
+
+**מגבלות ספציפיות:**
+- אינו שולט ביישומים בעצמו; כלי ענן דורשים התחברות משלך.
+- 113 מתוך 138 הכלים ברשימה עדיין לא נבדקו.
+- אפשר לכתוב קובצי AAF אך לא לקרוא אותם בחזרה, ולכן פלט AAF הוא UNVERIFIED.
+- EDL שומר רצועה אחת בלבד.
+- Premiere Pro ו-Final Cut Pro בייצוא בלבד; סקריפטים ב-DaVinci Resolve דורשים את גרסת Studio בתשלום.
+- לעולם אינו מוציא קרדיטים ליצירה בלי אישורך.
+- בדיקת ה-marketplace עדיין ממתינה; זה עדיין לא רישום מאושר.
 
 ## فارسی (`fa`)
 **Creative Switchboard**
@@ -306,9 +495,27 @@ Creative Switchboard پروژه‌ها را میان ابزارهای خلاقا
 
 **ارزیابی صادقانه:** این افزونه محدودیت‌هایی دارد که در README انگلیسی آمده است (بخش "Honest assessment: what this plugin cannot do"). از خدمات پولی استفاده نمی‌کند، هرگز ورود یا قوانین را دور نمی‌زند و از همهٔ قوانین و مقررات پلتفرم‌ها پیروی می‌کند. ترجمهٔ ماشینی، بازبینی‌نشده توسط گویشور بومی.
 
+**محدودیت‌های مشخص:**
+- خودش برنامه‌ها را کنترل نمی‌کند؛ ابزارهای ابری به ورود خود شما نیاز دارند.
+- ‏113 ابزار از 138 ابزار فهرست‌شده هنوز بررسی نشده‌اند.
+- فایل‌های AAF نوشته می‌شوند اما دوباره خوانده نمی‌شوند، پس خروجی AAF ‏UNVERIFIED است.
+- ‏EDL فقط یک تراک نگه می‌دارد.
+- ‏Premiere Pro و Final Cut Pro فقط خروجی می‌گیرند؛ اسکریپت‌نویسی DaVinci Resolve به نسخهٔ پولی Studio نیاز دارد.
+- هرگز بدون تأیید شما اعتبار تولید خرج نمی‌کند.
+- بررسی در بازارچه در انتظار است؛ هنوز فهرستی تأییدشده نیست.
+
 ## اردو (`ur`)
 **Creative Switchboard**
 
 Creative Switchboard تخلیقی ٹولز (ویڈیو، آڈیو، موسیقی، تصویر، 3D، ڈیزائن) کے درمیان کھلے فائل فارمیٹس، Dropbox کو مرکز بنا کر، اور ہر کمپنی کے سرکاری طریقوں سے پراجیکٹس منتقل کرتا ہے۔
 
 **دیانت دارانہ جائزہ:** اس پلگ اِن کی حدود ہیں جو انگریزی README میں درج ہیں ("Honest assessment: what this plugin cannot do" حصہ)۔ یہ کوئی ادائیگی والی سروس استعمال نہیں کرتا، لاگ اِن یا قواعد کو کبھی نظرانداز نہیں کرتا، اور تمام قوانین اور پلیٹ فارم کے قواعد پر عمل کرتا ہے۔ مشینی ترجمہ، کسی اہلِ زبان نے نظرثانی نہیں کی۔
+
+**مخصوص حدود:**
+- خود ایپس کو کنٹرول نہیں کرتا؛ کلاؤڈ ٹولز کے لیے آپ کا اپنا لاگ اِن درکار ہے۔
+- فہرست کے 138 میں سے 113 ٹولز ابھی جانچے نہیں گئے۔
+- AAF فائلیں لکھی جا سکتی ہیں مگر واپس پڑھی نہیں جا سکتیں، اس لیے AAF آؤٹ پٹ UNVERIFIED ہے۔
+- EDL صرف ایک ٹریک رکھتا ہے۔
+- Premiere Pro اور Final Cut Pro صرف ایکسپورٹ؛ DaVinci Resolve اسکرپٹنگ کے لیے ادائیگی والا Studio ورژن درکار ہے۔
+- آپ کی منظوری کے بغیر کبھی جنریشن کریڈٹس خرچ نہیں کرتا۔
+- مارکیٹ پلیس کا جائزہ زیرِ التوا ہے؛ ابھی منظور شدہ لسٹنگ نہیں۔
