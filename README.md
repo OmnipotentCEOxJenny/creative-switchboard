@@ -16,7 +16,7 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 - 2026-10-15: allowlist of 138 tools in 10 categories; 25 checked against vendor docs, a second source or a connected connector.
 
 **Pending**
-- 65 tools are not yet checked; verify each against the vendor's docs before relying on it.
+- 41 tools are not yet checked; verify each against the vendor's docs before relying on it.
 - How the counts fit: 138 unique tools (139 rows; Frame.io is listed twice). At launch 25 were checked and 113 were not (25 + 113 = 138). Each check moves a tool from "not yet checked" to "checked"; the total stays 138.
 - Cloud tools need the user's own sign-in (OAuth or API key); nothing connects without it.
 - Vimeo (free accounts need manual upload-access approval, up to 5 business days) and TikTok (unaudited apps post privately only; public posting needs an audit) have review delays.
@@ -79,7 +79,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Final Cut Pro | Y: FCPXML, Workflow Extensions, Apple Events | checked |
 | iMovie | N: no public API known; exports to Final Cut | not yet checked |
 | CapCut | N: no public editing API found | checked |
-| Avid Media Composer | partial: SDKs for partners | not yet checked |
+| Avid Media Composer | partial: Media Composer Extensions (panel SDK) for partners; Avid not onboarding new partners now | checked |
 | Kdenlive | partial: open source, MLT XML projects; native OTIO import and export since 25.04 | checked |
 | Shotcut | partial: open source, MLT XML | checked |
 | OpenShot | Y: libopenshot Python API | not yet checked |
@@ -95,17 +95,17 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Tool | Method | Status |
 |---|---|---|
 | Audacity | Y: mod-script-pipe (named pipes), ships with app | checked |
-| Ableton Live | partial: Max for Live (Suite), unofficial remote scripts | not yet checked |
+| Ableton Live | partial: Max for Live (Suite), unofficial remote scripts | checked |
 | REAPER | Y: ReaScript (Lua 5.4, EEL2, Python) | checked |
 | Logic Pro | partial: Scripter MIDI JS only | not yet checked |
 | GarageBand | N | not yet checked |
-| FL Studio | partial: MIDI scripting (Python) | not yet checked |
+| FL Studio | partial: MIDI scripting (Python) | checked |
 | Pro Tools | Y: Pro Tools Scripting SDK (PTSL, gRPC), free to anyone with an Avid account | checked |
 | Cubase / Nuendo | partial: MIDI remote API | not yet checked |
-| Bitwig Studio | partial: controller scripting API (JS) | not yet checked |
+| Bitwig Studio | partial: controller API in JavaScript (.js) and Java (.bwextension) | checked |
 | Ardour | Y: Lua scripting, open source | checked |
 | LMMS | partial: open source | not yet checked |
-| Studio One | partial | not yet checked |
+| Studio One | N: no officially documented public scripting API | not yet checked |
 | BandLab | N: no public API known | not yet checked |
 | Adobe Audition | partial: CEP/ExtendScript (legacy) | not yet checked |
 
@@ -117,10 +117,10 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Stable Audio | Y: Stability API | not yet checked |
 | ElevenLabs Music | Y: ElevenLabs API (connected) | checked |
 | Mubert | Y: self-serve REST API | checked |
-| Soundraw | partial: API for partners | not yet checked |
+| Soundraw | Y: self-serve API | not yet checked |
 | AIVA | N | not yet checked |
 | Boomy | N | not yet checked |
-| Beatoven.ai | partial: API | not yet checked |
+| Beatoven.ai | partial: API keys issued on request | checked |
 | Loudly | Y: Music API (self-serve developer portal) | checked |
 
 ### Image generation (13)
@@ -129,13 +129,13 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Midjourney | N: no API; automation prohibited (ToS and guidelines) | checked |
 | Stability AI (SD) | Y: REST API | checked |
 | Krea | Y: connected connector | checked |
-| Adobe Firefly | Y: Firefly Services API | not yet checked |
+| Adobe Firefly | Y: Firefly Services API | checked |
 | Leonardo.ai | Y: API | checked |
 | Ideogram | Y: API | checked |
 | OpenAI image models | Y: API | not yet checked |
-| Google Imagen / Gemini | Y: Gemini API (Imagen) | not yet checked |
+| Google Imagen / Gemini | Y: Gemini API (Imagen) | checked |
 | Meta AI image | N: no public image API known | not yet checked |
-| Grok Imagine (xAI) | Y: xAI API | not yet checked |
+| Grok Imagine (xAI) | Y: xAI API | checked |
 | Recraft | Y: API | checked |
 | Playground | N: no self-serve API; select business partners only (Pro Plus on request) | checked |
 | ComfyUI (local) | Y: local HTTP API, open source | checked |
@@ -149,8 +149,8 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Krea video | Y: connected connector | checked |
 | Kling | Y: API | checked |
 | Hailuo / MiniMax | Y: API | checked |
-| OpenAI Sora | Y: API | not yet checked |
-| Google Veo | Y: Gemini API / Vertex AI | not yet checked |
+| OpenAI Sora | N: Videos API and Sora 2 models shut down 24 Sep 2026 | checked |
+| Google Veo | Y: Gemini API / Vertex AI | checked |
 | Synthesia | Y: API | checked |
 | HeyGen | Y: API | checked |
 | D-ID | Y: API | checked |
@@ -161,16 +161,16 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Tool | Method | Status |
 |---|---|---|
 | Blender | Y: built-in Python API (bpy) | checked |
-| Adobe After Effects | partial: ExtendScript/CEP (UXP in progress) | not yet checked |
-| Cinema 4D | Y: Python SDK | not yet checked |
+| Adobe After Effects | partial: ExtendScript/CEP; UXP in private beta (public beta planned Nov 2026) | checked |
+| Cinema 4D | Y: Python SDK | checked |
 | Autodesk Maya | Y: Python/MEL | not yet checked |
-| Houdini | Y: Python (hou) | not yet checked |
-| Unreal Engine | Y: Python/Blueprint, Remote Control API | not yet checked |
+| Houdini | Y: Python (hou) | checked |
+| Unreal Engine | Y: Python/Blueprint, Remote Control API | checked |
 | Unity | Y: C# Editor scripting | not yet checked |
 | Spline | partial: API/export | checked |
 | Rive | Y: MIT open-source runtimes; editor free | checked |
 | LottieFiles | partial: LottieFiles GraphQL API 'coming soon'; hosted MCP server; Lottie search/download via IconScout API | checked |
-| Toon Boom Harmony | partial: scripting | not yet checked |
+| Toon Boom Harmony | partial: Qt Script (JavaScript) scripting plus a Python interface | checked |
 | Synfig | partial: open source | not yet checked |
 | Moho | partial: Lua scripting | not yet checked |
 | Adobe Animate | partial: JSFL | not yet checked |
@@ -180,7 +180,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 |---|---|---|
 | Canva | Y: Connect API + Apps SDK (connected) | checked |
 | Figma | Y: REST API, OAuth2 or tokens | checked |
-| Adobe Photoshop | Y: UXP plugins; Photoshop API (Firefly Services) | not yet checked |
+| Adobe Photoshop | Y: UXP plugins; Photoshop API (Firefly Services) | checked |
 | Adobe Illustrator | partial: ExtendScript/UXP | not yet checked |
 | Affinity apps | Y: new Affinity (by Canva) has in-app scripting with a JS SDK | checked |
 | GIMP | Y: GIMP 3 Python plug-ins (GObject Introspection), open source | checked |
@@ -189,7 +189,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Photopea | partial: URL/JSON API | not yet checked |
 | Sketch | partial: plugin API | not yet checked |
 | Penpot | Y: API, open source | checked |
-| Adobe Express | partial: add-ons SDK | not yet checked |
+| Adobe Express | partial: add-ons SDK (free/paid add-ons); Express API in beta, needs Firefly Services, no commercial use | checked |
 
 ### Subtitles / voice (12)
 | Tool | Method | Status |
@@ -212,14 +212,14 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 |---|---|---|
 | Dropbox | Y: API (connected) | checked |
 | Box | Y: API | checked |
-| OneDrive | Y: Microsoft Graph | not yet checked |
+| OneDrive | Y: Microsoft Graph | checked |
 | Google Drive | Y: Drive API, user OAuth | not yet checked |
 | iCloud Drive | N: no public file API | not yet checked |
 | WeTransfer | N: Public API retired (disabled May 2022); only Enterprise activity-log API | checked |
 | MASV | Y: API | not yet checked |
 | pCloud | Y: API | not yet checked |
 | MEGA | Y: C++ SDK (BSD 2-Clause) | checked |
-| Backblaze B2 | Y: S3-compatible API | not yet checked |
+| Backblaze B2 | Y: S3-compatible API | checked |
 | Local disk / NAS | Y: file system | not yet checked |
 
 ### Export / distribution (23)
@@ -227,7 +227,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 |---|---|---|
 | Vimeo | Y: API upload, OAuth upload scope | checked |
 | TikTok | Y: Content Posting API | checked |
-| X | Y: API v2 media upload | not yet checked |
+| X | Y: API v2 media upload | checked |
 | SoundCloud | Y: API upload via OAuth | checked |
 | Spotify for Artists | N: no upload API; distributors only | checked |
 | Bandcamp | partial: API for labels/partners on request | checked |
@@ -238,12 +238,12 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Twitch | N for upload: Kraken upload endpoints shut 28 Feb 2022, Helix Videos has no upload | checked |
 | Dailymotion | Y: upload API (upload sessions, video.manage scope) | checked |
 | Rumble | partial: upload API only for Rumble PRO subscribers | checked |
-| Apple Music | N: distributors only | not yet checked |
+| Apple Music | N: distributors only | checked |
 | Amazon Music | N: distributors only | not yet checked |
-| DistroKid | N: no public API known | not yet checked |
+| DistroKid | N: no public API known | checked |
 | Audiomack | partial: data/playback API (OAuth 1.0a); no public upload API found | checked |
-| LinkedIn | Y: API (approval) | not yet checked |
-| Pinterest | Y: API (approval) | not yet checked |
+| LinkedIn | Y: API (approval) | checked |
+| Pinterest | Y: API (approval) | checked |
 | Bluesky | Y: AT Protocol, open | not yet checked |
 | Mastodon | Y: open API | not yet checked |
 | PeerTube | Y: REST API with video upload (incl. resumable) | checked |
@@ -267,7 +267,7 @@ MIT. See `LICENSE`. Copyright Rob Domaine / Omnipotent Media LLC.
 Written to be fully transparent. If something here is wrong or out of date, please open an issue.
 
 - It does not control creative apps by itself. It routes work through open file formats, Dropbox and each vendor's official methods, and cloud tools need your own sign-in.
-- 65 of the 138 allowlisted tools are not yet checked against vendor docs.
+- 41 of the 138 allowlisted tools are not yet checked against vendor docs.
 - AAF: files can be written, but reading them back with the free tools failed in testing, so AAF output is UNVERIFIED. Prefer OTIO or FCPXML.
 - EDL keeps only one track; other tracks (such as audio) are dropped without an error.
 - Premiere Pro and Final Cut Pro are export-only routes. DaVinci Resolve scripting needs the paid Studio version. CapCut has no public API found, Spotify has no upload API, and SoundCloud's API needs a paid plan.

@@ -28,7 +28,7 @@ Los cuatro pilares de Rob Domaine se aplican siempre. Se mantienen abajo con su 
 
 **Límites específicos:**
 - No controla las aplicaciones por sí mismo; las herramientas en la nube requieren su propio inicio de sesión.
-- 65 de las 138 herramientas listadas aún no están verificadas.
+- 41 de las 138 herramientas listadas aún no están verificadas.
 - Los archivos AAF se pueden escribir pero no volver a leer, así que la salida AAF es UNVERIFIED.
 - EDL conserva una sola pista.
 - Premiere Pro y Final Cut Pro solo exportan; los scripts de DaVinci Resolve requieren la versión de pago Studio.
@@ -51,7 +51,7 @@ Les quatre piliers de Rob Domaine s'appliquent toujours. Ils figurent ci-dessous
 
 **Limites spécifiques :**
 - Ne pilote pas les applications lui-même ; les outils cloud exigent votre propre connexion.
-- 65 des 138 outils listés ne sont pas encore vérifiés.
+- 41 des 138 outils listés ne sont pas encore vérifiés.
 - Les fichiers AAF peuvent être écrits mais pas relus, donc la sortie AAF est UNVERIFIED.
 - L'EDL ne garde qu'une seule piste.
 - Premiere Pro et Final Cut Pro : export uniquement ; les scripts DaVinci Resolve exigent la version payante Studio.
@@ -74,7 +74,7 @@ Os quatro pilares de Rob Domaine sempre se aplicam. Eles estão abaixo na redaç
 
 **Limites específicos:**
 - Não controla os aplicativos sozinho; ferramentas na nuvem exigem seu próprio login.
-- 65 das 138 ferramentas listadas ainda não foram verificadas.
+- 41 das 138 ferramentas listadas ainda não foram verificadas.
 - Arquivos AAF podem ser gravados, mas não lidos de volta; por isso a saída AAF é UNVERIFIED.
 - EDL mantém apenas uma faixa.
 - Premiere Pro e Final Cut Pro só exportam; scripts do DaVinci Resolve exigem a versão paga Studio.
@@ -97,7 +97,7 @@ Rob Domaines vier Grundsätze gelten immer. Sie stehen unten in seinem englische
 
 **Konkrete Grenzen:**
 - Steuert Apps nicht selbst; Cloud-Tools brauchen Ihre eigene Anmeldung.
-- 65 der 138 gelisteten Tools sind noch nicht geprüft.
+- 41 der 138 gelisteten Tools sind noch nicht geprüft.
 - AAF-Dateien lassen sich schreiben, aber nicht zurücklesen; AAF-Ausgabe ist daher UNVERIFIED.
 - EDL behält nur eine Spur.
 - Premiere Pro und Final Cut Pro nur per Export; DaVinci-Resolve-Skripting braucht die kostenpflichtige Studio-Version.
@@ -120,7 +120,7 @@ I quattro pilastri di Rob Domaine valgono sempre. Sono riportati sotto nella sua
 
 **Limiti specifici:**
 - Non controlla le app da solo; gli strumenti cloud richiedono il tuo accesso.
-- 65 dei 138 strumenti elencati non sono ancora verificati.
+- 41 dei 138 strumenti elencati non sono ancora verificati.
 - I file AAF si possono scrivere ma non rileggere, quindi l'output AAF è UNVERIFIED.
 - L'EDL conserva una sola traccia.
 - Premiere Pro e Final Cut Pro solo in esportazione; gli script di DaVinci Resolve richiedono la versione a pagamento Studio.
@@ -143,7 +143,7 @@ Rob Domaine 的四大原则始终适用，下方保留其英文原文。
 
 **具体局限：**
 - 本身不控制应用；云端工具需要您自己登录。
-- 所列 138 个工具中有 65 个尚未核查。
+- 所列 138 个工具中有 41 个尚未核查。
 - AAF 文件可以写出但无法读回，因此 AAF 输出为 UNVERIFIED。
 - EDL 只保留一条轨道。
 - Premiere Pro 和 Final Cut Pro 仅支持导出；DaVinci Resolve 脚本需要付费 Studio 版。
@@ -166,7 +166,7 @@ Rob Domaine の4つの柱は常に適用されます。下記に英語の原文�
 
 **具体的な制限：**
 - アプリを直接操作はしません。クラウドツールにはご自身のログインが必要です。
-- 掲載している 138 ツールのうち 65 は未確認です。
+- 掲載している 138 ツールのうち 41 は未確認です。
 - AAF ファイルは書き出せますが読み戻せないため、AAF 出力は UNVERIFIED です。
 - EDL は 1 トラックのみ保持します。
 - Premiere Pro と Final Cut Pro は書き出しのみ。DaVinci Resolve のスクリプトには有料の Studio 版が必要です。
@@ -212,7 +212,7 @@ Rob Domaine के चार स्तंभ हमेशा लागू हो
 
 **विशिष्ट सीमाएँ:**
 - यह ऐप्स को खुद नियंत्रित नहीं करता; क्लाउड टूल्स के लिए आपका अपना लॉगिन चाहिए।
-- सूची के 138 में से 65 टूल्स अभी जाँचे नहीं गए।
+- सूची के 138 में से 41 टूल्स अभी जाँचे नहीं गए।
 - AAF फ़ाइलें लिखी जा सकती हैं पर वापस पढ़ी नहीं जा सकतीं, इसलिए AAF आउटपुट UNVERIFIED है।
 - EDL केवल एक ट्रैक रखता है।
 - Premiere Pro और Final Cut Pro केवल एक्सपोर्ट; DaVinci Resolve स्क्रिप्टिंग के लिए सशुल्क Studio संस्करण चाहिए।
@@ -235,7 +235,7 @@ Rob Domaine के चार स्तंभ हमेशा लागू हो
 
 **حدود محددة:**
 - لا تتحكم في التطبيقات بنفسها؛ أدوات السحابة تتطلب تسجيل دخولك الخاص.
-- لم يُتحقق بعد من 65 أداة من أصل 138 مدرجة.
+- لم يُتحقق بعد من 41 أداة من أصل 138 مدرجة.
 - يمكن كتابة ملفات AAF لكن لا يمكن قراءتها مجددًا، لذا مخرجات AAF هي UNVERIFIED.
 - ملف EDL يحتفظ بمسار واحد فقط.
 - Premiere Pro وFinal Cut Pro للتصدير فقط؛ وبرمجة DaVinci Resolve تتطلب نسخة Studio المدفوعة.
@@ -258,7 +258,7 @@ Creative Switchboard переносит проекты между творчес
 
 **Конкретные ограничения:**
 - Сам не управляет приложениями; облачным инструментам нужен ваш собственный вход.
-- 65 из 138 перечисленных инструментов ещё не проверены.
+- 41 из 138 перечисленных инструментов ещё не проверены.
 - Файлы AAF можно записать, но нельзя прочитать обратно, поэтому вывод AAF — UNVERIFIED.
 - EDL сохраняет только одну дорожку.
 - Premiere Pro и Final Cut Pro — только экспорт; скрипты DaVinci Resolve требуют платной версии Studio.
@@ -281,7 +281,7 @@ Empat pilar Rob Domaine selalu berlaku. Pilar tersebut tercantum di bawah dalam 
 
 **Batasan khusus:**
 - Tidak mengendalikan aplikasi sendiri; alat cloud membutuhkan login Anda sendiri.
-- 65 dari 138 alat yang terdaftar belum diperiksa.
+- 41 dari 138 alat yang terdaftar belum diperiksa.
 - File AAF bisa ditulis tetapi tidak bisa dibaca kembali, jadi keluaran AAF berstatus UNVERIFIED.
 - EDL hanya menyimpan satu trek.
 - Premiere Pro dan Final Cut Pro hanya ekspor; skrip DaVinci Resolve membutuhkan versi Studio berbayar.
@@ -304,7 +304,7 @@ Rob Domaine'in dört ilkesi her zaman geçerlidir. Aşağıda orijinal İngilizc
 
 **Belirli sınırlar:**
 - Uygulamaları kendisi kontrol etmez; bulut araçları kendi oturumunuzu gerektirir.
-- Listelenen 138 aracın 65'ü henüz kontrol edilmedi.
+- Listelenen 138 aracın 41'ü henüz kontrol edilmedi.
 - AAF dosyaları yazılabilir ama geri okunamaz; bu yüzden AAF çıktısı UNVERIFIED'dır.
 - EDL yalnızca bir iz tutar.
 - Premiere Pro ve Final Cut Pro yalnızca dışa aktarım; DaVinci Resolve betikleri ücretli Studio sürümünü gerektirir.
@@ -327,7 +327,7 @@ Bốn trụ cột của Rob Domaine luôn được áp dụng. Chúng được g
 
 **Giới hạn cụ thể:**
 - Không tự điều khiển ứng dụng; công cụ đám mây cần bạn tự đăng nhập.
-- 65 trong 138 công cụ được liệt kê chưa được kiểm tra.
+- 41 trong 138 công cụ được liệt kê chưa được kiểm tra.
 - Tệp AAF ghi được nhưng không đọc lại được, nên đầu ra AAF là UNVERIFIED.
 - EDL chỉ giữ một track.
 - Premiere Pro và Final Cut Pro chỉ xuất tệp; viết script cho DaVinci Resolve cần bản Studio trả phí.
@@ -373,7 +373,7 @@ Nguzo nne za Rob Domaine zinatumika kila wakati. Zimewekwa hapa chini kwa maneno
 
 **Mipaka mahususi:**
 - Haiendeshi programu yenyewe; zana za wingu zinahitaji uingie kwa akaunti yako.
-- Zana 65 kati ya 138 zilizoorodheshwa bado hazijakaguliwa.
+- Zana 41 kati ya 138 zilizoorodheshwa bado hazijakaguliwa.
 - Faili za AAF zinaweza kuandikwa lakini si kusomwa tena, hivyo matokeo ya AAF ni UNVERIFIED.
 - EDL huhifadhi wimbo mmoja tu.
 - Premiere Pro na Final Cut Pro ni kwa kuhamisha tu; hati za DaVinci Resolve zinahitaji toleo la kulipia la Studio.
@@ -396,7 +396,7 @@ Creative Switchboard переносить проєкти між творчими
 
 **Конкретні обмеження:**
 - Сам не керує застосунками; хмарним інструментам потрібен ваш власний вхід.
-- 65 зі 138 перелічених інструментів ще не перевірено.
+- 41 зі 138 перелічених інструментів ще не перевірено.
 - Файли AAF можна записати, але не прочитати назад, тож вивід AAF — UNVERIFIED.
 - EDL зберігає лише одну доріжку.
 - Premiere Pro і Final Cut Pro — лише експорт; скрипти DaVinci Resolve потребують платної версії Studio.
@@ -419,7 +419,7 @@ Cztery filary Roba Domaine'a obowiązują zawsze. Poniżej podano je w oryginaln
 
 **Konkretne ograniczenia:**
 - Nie steruje aplikacjami samodzielnie; narzędzia chmurowe wymagają Twojego logowania.
-- 65 ze 138 wymienionych narzędzi nie jest jeszcze sprawdzonych.
+- 41 ze 138 wymienionych narzędzi nie jest jeszcze sprawdzonych.
 - Pliki AAF można zapisać, ale nie odczytać ponownie, więc wynik AAF jest UNVERIFIED.
 - EDL zachowuje tylko jedną ścieżkę.
 - Premiere Pro i Final Cut Pro tylko przez eksport; skrypty DaVinci Resolve wymagają płatnej wersji Studio.
@@ -442,7 +442,7 @@ De vier pijlers van Rob Domaine gelden altijd. Ze staan hieronder in zijn oorspr
 
 **Specifieke beperkingen:**
 - Bestuurt apps niet zelf; cloudtools vereisen uw eigen login.
-- 65 van de 138 vermelde tools zijn nog niet gecontroleerd.
+- 41 van de 138 vermelde tools zijn nog niet gecontroleerd.
 - AAF-bestanden kunnen worden geschreven maar niet teruggelezen, dus AAF-uitvoer is UNVERIFIED.
 - EDL behoudt maar één spoor.
 - Premiere Pro en Final Cut Pro alleen via export; DaVinci Resolve-scripting vereist de betaalde Studio-versie.
@@ -465,7 +465,7 @@ Laging umiiral ang apat na haligi ni Rob Domaine. Nakasaad ang mga ito sa ibaba 
 
 **Mga tiyak na limitasyon:**
 - Hindi nito kinokontrol ang mga app nang mag-isa; kailangan ng sarili mong login ang mga cloud tool.
-- 65 sa 138 nakalistang tool ay hindi pa nasusuri.
+- 41 sa 138 nakalistang tool ay hindi pa nasusuri.
 - Naisusulat ang mga AAF file pero hindi nababasa pabalik, kaya UNVERIFIED ang AAF output.
 - Isang track lang ang pinapanatili ng EDL.
 - Export lamang ang Premiere Pro at Final Cut Pro; kailangan ng bayad na Studio version ang scripting sa DaVinci Resolve.
@@ -481,7 +481,7 @@ Creative Switchboard מעביר פרויקטים בין כלים יצירתיי�
 
 **מגבלות ספציפיות:**
 - אינו שולט ביישומים בעצמו; כלי ענן דורשים התחברות משלך.
-- 65 מתוך 138 הכלים ברשימה עדיין לא נבדקו.
+- 41 מתוך 138 הכלים ברשימה עדיין לא נבדקו.
 - אפשר לכתוב קובצי AAF אך לא לקרוא אותם בחזרה, ולכן פלט AAF הוא UNVERIFIED.
 - EDL שומר רצועה אחת בלבד.
 - Premiere Pro ו-Final Cut Pro בייצוא בלבד; סקריפטים ב-DaVinci Resolve דורשים את גרסת Studio בתשלום.
@@ -497,7 +497,7 @@ Creative Switchboard پروژه‌ها را میان ابزارهای خلاقا
 
 **محدودیت‌های مشخص:**
 - خودش برنامه‌ها را کنترل نمی‌کند؛ ابزارهای ابری به ورود خود شما نیاز دارند.
-- ‏65 ابزار از 138 ابزار فهرست‌شده هنوز بررسی نشده‌اند.
+- ‏41 ابزار از 138 ابزار فهرست‌شده هنوز بررسی نشده‌اند.
 - فایل‌های AAF نوشته می‌شوند اما دوباره خوانده نمی‌شوند، پس خروجی AAF ‏UNVERIFIED است.
 - ‏EDL فقط یک تراک نگه می‌دارد.
 - ‏Premiere Pro و Final Cut Pro فقط خروجی می‌گیرند؛ اسکریپت‌نویسی DaVinci Resolve به نسخهٔ پولی Studio نیاز دارد.
@@ -513,7 +513,7 @@ Creative Switchboard تخلیقی ٹولز (ویڈیو، آڈیو، موسیقی
 
 **مخصوص حدود:**
 - خود ایپس کو کنٹرول نہیں کرتا؛ کلاؤڈ ٹولز کے لیے آپ کا اپنا لاگ اِن درکار ہے۔
-- فہرست کے 138 میں سے 65 ٹولز ابھی جانچے نہیں گئے۔
+- فہرست کے 138 میں سے 41 ٹولز ابھی جانچے نہیں گئے۔
 - AAF فائلیں لکھی جا سکتی ہیں مگر واپس پڑھی نہیں جا سکتیں، اس لیے AAF آؤٹ پٹ UNVERIFIED ہے۔
 - EDL صرف ایک ٹریک رکھتا ہے۔
 - Premiere Pro اور Final Cut Pro صرف ایکسپورٹ؛ DaVinci Resolve اسکرپٹنگ کے لیے ادائیگی والا Studio ورژن درکار ہے۔

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.11 (2026-10-20)
+- Important status changes, two sources each: OpenAI Sora API shut down on 24 Sep 2026 (now a hard blocker); Google Veo 3.1 preview models on the Gemini API shut down 22 Oct 2026 (replacement gemini-omni-1.1-flash), paid only; Avid is not onboarding new Media Composer Extensions partners; Google Imagen is paid only (no free tier).
+- Pricing or access confirmed with two sources: Grok Imagine, X (pay-per-use, no free tier), Adobe Firefly and Photoshop API (enterprise contract), Adobe Express (add-ons SDK; Express API beta), After Effects (UXP private beta), Beatoven.ai, Houdini Apprentice, Unreal Engine royalty, Backblaze B2, OneDrive, LinkedIn, Pinterest, DistroKid, Apple Music, Ableton (Max for Live), Bitwig, FL Studio, Cinema 4D, Toon Boom Harmony.
+- One source, still UNVERIFIED: Studio One (no public scripting API), Soundraw ($29.99/mo API), Stable Audio, Lightworks formats, VEGAS Pro, Unity Personal, MASV, Illustrator UXP timeline, Instagram Reels limits.
+- 97 of 138 tools now checked; 41 not yet checked.
+- Data and docs only; no behavior changes.
+
 ## 1.0.10 (2026-10-20)
 - Corrections, two sources each: Subtitle Edit is MIT (CLI is LGPL-3.0), not GPL; LottieFiles' own API is "coming soon" (Lottie downloads via the IconScout API, free plan 250 credits/month); Loudly has a self-serve paid API; Spline code export needs Pro.
 - Second sources and pricing for the earlier single-source notes: Deepgram ($200 free credit; expiry wording differs between pages), D-ID, Rev, MEGA (20 GB free, BSD SDK).
