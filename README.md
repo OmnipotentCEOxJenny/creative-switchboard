@@ -16,7 +16,8 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 - 2026-10-15: allowlist of 138 tools in 10 categories; 25 checked against vendor docs, a second source or a connected connector.
 
 **Pending**
-- 100 tools are not yet checked; verify each against the vendor's docs before relying on it.
+- 83 tools are not yet checked; verify each against the vendor's docs before relying on it.
+- How the counts fit: 138 unique tools (139 rows; Frame.io is listed twice). At launch 25 were checked and 113 were not (25 + 113 = 138). Each check moves a tool from "not yet checked" to "checked"; the total stays 138.
 - Cloud tools need the user's own sign-in (OAuth or API key); nothing connects without it.
 - Vimeo (free accounts need manual upload-access approval, up to 5 business days) and TikTok (unaudited apps post privately only; public posting needs an audit) have review delays.
 - DaVinci Resolve scripting and its MCP server need the paid Studio version (21.1). Premiere Pro and Final Cut Pro are export-only routes (files, not live control).
@@ -77,7 +78,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Adobe Premiere Pro | Y: UXP plugins; exports FCPXML, AAF, OTIO | checked |
 | Final Cut Pro | Y: FCPXML, Workflow Extensions, Apple Events | checked |
 | iMovie | N: no public API known; exports to Final Cut | not yet checked |
-| CapCut | N: no public editing API found | not yet checked |
+| CapCut | N: no public editing API found | checked |
 | Avid Media Composer | partial: SDKs for partners | not yet checked |
 | Kdenlive | partial: open source, MLT XML projects; native OTIO import and export since 25.04 | checked |
 | Shotcut | partial: open source, MLT XML | not yet checked |
@@ -85,7 +86,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Lightworks | partial | not yet checked |
 | VEGAS Pro | Y: scripting API (C#) | not yet checked |
 | HitFilm | N: DISCONTINUED by Artlist 15 Jan 2025; no new licenses, downloads or support | checked |
-| Descript | partial: limited API | not yet checked |
+| Descript | Y: Descript API, open beta for all users since 16 Apr 2026 (token in Settings) | checked |
 | Clipchamp | N: Microsoft, no public API known | not yet checked |
 | Filmora | N | not yet checked |
 | Frame.io (review) | Y: V4 REST API, OAuth via Adobe IMS | checked |
@@ -135,7 +136,7 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Google Imagen / Gemini | Y: Gemini API (Imagen) | not yet checked |
 | Meta AI image | N: no public image API known | not yet checked |
 | Grok Imagine (xAI) | Y: xAI API | not yet checked |
-| Recraft | Y: API | not yet checked |
+| Recraft | Y: API | checked |
 | Playground | N: no self-serve API; select business partners only (Pro Plus on request) | checked |
 | ComfyUI (local) | Y: local HTTP API, open source | not yet checked |
 
@@ -146,12 +147,12 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Luma (Dream Machine/Ray) | Y: API, pay-as-you-go ($0.15+ per 5 s) | checked |
 | Pika | Y: API, no free generation tier | checked |
 | Krea video | Y: connected connector | checked |
-| Kling | Y: API | not yet checked |
-| Hailuo / MiniMax | Y: API | not yet checked |
+| Kling | Y: API | checked |
+| Hailuo / MiniMax | Y: API | checked |
 | OpenAI Sora | Y: API | not yet checked |
 | Google Veo | Y: Gemini API / Vertex AI | not yet checked |
-| Synthesia | Y: API | not yet checked |
-| HeyGen | Y: API | not yet checked |
+| Synthesia | Y: API | checked |
+| HeyGen | Y: API | checked |
 | D-ID | Y: API | not yet checked |
 | Haiper | N: consumer app shut Feb 2025; enterprise/B2B only | checked |
 | Kaiber | N | checked |
@@ -167,8 +168,8 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Unreal Engine | Y: Python/Blueprint, Remote Control API | not yet checked |
 | Unity | Y: C# Editor scripting | not yet checked |
 | Spline | partial: API/export | not yet checked |
-| Rive | partial: runtime APIs | not yet checked |
-| LottieFiles | Y: API | not yet checked |
+| Rive | Y: MIT open-source runtimes; editor free | checked |
+| LottieFiles | N: no public API for animations; API offered via IconScout, no public pricing | not yet checked |
 | Toon Boom Harmony | partial: scripting | not yet checked |
 | Synfig | partial: open source | not yet checked |
 | Moho | partial: Lua scripting | not yet checked |
@@ -198,19 +199,19 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Subtitle Edit | partial: CLI, open source | not yet checked |
 | Aegisub | partial: Lua automation, open source | not yet checked |
 | Rev | Y: API | not yet checked |
-| Otter.ai | Y: public API for Enterprise workspaces only | not yet checked |
-| AssemblyAI | Y: API | not yet checked |
+| Otter.ai | Y: public API for Enterprise workspaces only | checked |
+| AssemblyAI | Y: API | checked |
 | Deepgram | Y: API | not yet checked |
-| Murf | Y: API | not yet checked |
-| Resemble AI | Y: API | not yet checked |
-| Kapwing | partial: no public REST API; whitelisted Plugin API only | not yet checked |
-| Veed | Y: public REST API (workspace key, job polling) | not yet checked |
+| Murf | Y: API | checked |
+| Resemble AI | N for voice: no longer sells voice generation or cloning; APIs now deepfake detection, watermarking, identity | checked |
+| Kapwing | partial: no public REST API; whitelisted Plugin API only | checked |
+| Veed | Y: public REST API (Fabric 1.0, lipsync, subtitles, background removal) | checked |
 
 ### Storage / transfer hubs (11)
 | Tool | Method | Status |
 |---|---|---|
 | Dropbox | Y: API (connected) | checked |
-| Box | Y: API | not yet checked |
+| Box | Y: API | checked |
 | OneDrive | Y: Microsoft Graph | not yet checked |
 | Google Drive | Y: Drive API, user OAuth | not yet checked |
 | iCloud Drive | N: no public file API | not yet checked |
@@ -236,11 +237,11 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 | Threads | Y: Threads API publishing | not yet checked |
 | Twitch | N for upload: Kraken upload endpoints shut 28 Feb 2022, Helix Videos has no upload | checked |
 | Dailymotion | Y: upload API (upload sessions, video.manage scope) | checked |
-| Rumble | partial: upload API only for Rumble PRO subscribers | not yet checked |
+| Rumble | partial: upload API only for Rumble PRO subscribers | checked |
 | Apple Music | N: distributors only | not yet checked |
 | Amazon Music | N: distributors only | not yet checked |
 | DistroKid | N: no public API known | not yet checked |
-| Audiomack | partial: data/playback API (OAuth 1.0a); no public upload API found | not yet checked |
+| Audiomack | partial: data/playback API (OAuth 1.0a); no public upload API found | checked |
 | LinkedIn | Y: API (approval) | not yet checked |
 | Pinterest | Y: API (approval) | not yet checked |
 | Bluesky | Y: AT Protocol, open | not yet checked |
@@ -266,7 +267,7 @@ MIT. See `LICENSE`. Copyright Rob Domaine / Omnipotent Media LLC.
 Written to be fully transparent. If something here is wrong or out of date, please open an issue.
 
 - It does not control creative apps by itself. It routes work through open file formats, Dropbox and each vendor's official methods, and cloud tools need your own sign-in.
-- 100 of the 138 allowlisted tools are not yet checked against vendor docs.
+- 83 of the 138 allowlisted tools are not yet checked against vendor docs.
 - AAF: files can be written, but reading them back with the free tools failed in testing, so AAF output is UNVERIFIED. Prefer OTIO or FCPXML.
 - EDL keeps only one track; other tracks (such as audio) are dropped without an error.
 - Premiere Pro and Final Cut Pro are export-only routes. DaVinci Resolve scripting needs the paid Studio version. CapCut has no public API found, Spotify has no upload API, and SoundCloud's API needs a paid plan.

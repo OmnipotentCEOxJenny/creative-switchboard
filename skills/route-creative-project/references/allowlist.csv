@@ -3,7 +3,7 @@ Video editing,DaVinci Resolve,"Y: Python/Lua scripting + MCP server (21.1), Stud
 Video editing,Adobe Premiere Pro,"Y: UXP plugins; exports FCPXML, AAF, OTIO","FCPXML, AAF, OTIO, EDL",App is paid subscription,Runs inside Premiere,No (via exported files),,VERIFIED (2 sources)
 Video editing,Final Cut Pro,"Y: FCPXML, Workflow Extensions, Apple Events",FCPXML,App is paid,macOS only,No (via FCPXML),,VERIFIED (vendor docs 2026-10-15)
 Video editing,iMovie,N: no public API known; exports to Final Cut,Project export to FCP; MP4,n/a,Unknown,Guide only,,UNVERIFIED
-Video editing,CapCut,N: no public editing API found,MP4,n/a,Unknown,Guide only,,UNVERIFIED (one search found none)
+Video editing,CapCut,N: no public editing API found,MP4,n/a,Unknown,Guide only,No public editing API; capcut.com/openapi.yaml is a ChatGPT plugin spec; draft APIs are third-party. Sources: capcut.com/openapi.yaml ; wireflow.ai/blog/capcut-api,"VERIFIED (2 sources, 2026-10-20)"
 Video editing,Avid Media Composer,partial: SDKs for partners,"AAF, MXF, EDL",Partner program,Partner terms,Likely,,UNVERIFIED
 Video editing,Kdenlive,"partial: open source, MLT XML projects; native OTIO import and export since 25.04","MLT XML, OTIO (import and export)",No,GPL,No,"Effects, filters and transitions are not exported. Sources: kdenlive.org/news/releases/25.04.0/ ; docs.kdenlive.org File Menu (OpenTimelineIO import/export)","VERIFIED (2 sources, 2026-10-20)"
 Video editing,Shotcut,"partial: open source, MLT XML",MLT XML,No,GPL,No,,UNVERIFIED
@@ -11,7 +11,7 @@ Video editing,OpenShot,Y: libopenshot Python API,OSP JSON,No,GPL,No,,UNVERIFIED
 Video editing,Lightworks,partial,"AAF, EDL, XML",Pro tiers,Unknown,Unknown,,UNVERIFIED
 Video editing,VEGAS Pro,Y: scripting API (C#),"EDL, AAF",App paid,Unknown,No (local),,UNVERIFIED
 Video editing,HitFilm,"N: DISCONTINUED by Artlist 15 Jan 2025; no new licenses, downloads or support",MP4,n/a (no longer sold),Unknown,Yes (discontinued),Sources: cgchannel.com/2025/02/artlist-discontinues-the-fxhome-apps-hitfilm-and-imerge-dead/ ; digitalproduction.com/2025/02/24/hitfilm-imerge-artlist-pulls-the-plug/,"VERIFIED (2 sources, 2026-10-20)"
-Video editing,Descript,partial: limited API,Export to Premiere/FCP XML,Paid plans,Unknown,Unknown,,UNVERIFIED
+Video editing,Descript,"Y: Descript API, open beta for all users since 16 Apr 2026 (token in Settings)",Export to Premiere/FCP XML,Uses plan media minutes and AI credits,Unknown,No,Sources: descript.canny.io/changelog release roundup 2026-04-16 ; help.descript.com/api-and-mcp/api,"VERIFIED (2 sources, 2026-10-20)"
 Video editing,Clipchamp,"N: Microsoft, no public API known",MP4,n/a,Unknown,Guide only,,UNVERIFIED
 Video editing,Filmora,N,MP4,n/a,Unknown,Guide only,,UNVERIFIED
 Video editing,Frame.io (review),"Y: V4 REST API, OAuth via Adobe IMS",Any media,Needs provisioned V4 account,Adobe Developer terms,No,,VERIFIED (2 sources)
@@ -49,19 +49,19 @@ Image generation,OpenAI image models,Y: API,PNG,Paid per image,OpenAI terms,Cred
 Image generation,Google Imagen / Gemini,Y: Gemini API (Imagen),PNG,Paid per image (free tier UNVERIFIED),Google API terms; user's own API key,No (via user key),,UNVERIFIED
 Image generation,Meta AI image,N: no public image API known,PNG,n/a,Meta terms,Guide only,,UNVERIFIED
 Image generation,Grok Imagine (xAI),Y: xAI API,"PNG, MP4",Paid per use,xAI terms,Credit spend,,UNVERIFIED
-Image generation,Recraft,Y: API,"SVG, PNG",Paid,Unknown,Credit spend,,UNVERIFIED
+Image generation,Recraft,Y: API,"SVG, PNG","Paid per use ($1 = 1,000 units; V4.1 raster $0.035)",Unknown,Credit spend,Sources: recraft.ai/docs/api-reference/pricing ; recraft.ai/pricing?tab=api,"VERIFIED (2 sources, 2026-10-20)"
 Image generation,Playground,N: no self-serve API; select business partners only (Pro Plus on request),PNG,Paid/partner only,Unknown,Yes (no public API),Sources: help.playgroundai.com article 6861708 ; playground.com/pricing,"VERIFIED (2 sources, 2026-10-20)"
 Image generation,ComfyUI (local),"Y: local HTTP API, open source","PNG, workflow JSON",No (local GPU),GPL,No (needs GPU),,UNVERIFIED
 AI video,Runway,Y: connected connector,MP4,Generation spends credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
 AI video,Luma (Dream Machine/Ray),"Y: API, pay-as-you-go ($0.15+ per 5 s)",MP4,Yes,API terms,Paid,,VERIFIED (vendor docs 2026-10-15)
 AI video,Pika,"Y: API, no free generation tier",MP4,Yes (prepaid),API terms,Paid,,VERIFIED (vendor docs 2026-10-15)
 AI video,Krea video,Y: connected connector,MP4,Credits,Rob's no-credit rule,Credit spend,,VERIFIED (connected connector)
-AI video,Kling,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
-AI video,Hailuo / MiniMax,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
+AI video,Kling,Y: API,MP4,Paid per second (e.g. Kling 3.0 $0.084/s at 720p),Unknown,Paid,Sources: kling.ai/document-api/pricing ; chinaapi.ai/ai-video-api/,"VERIFIED (2 sources, 2026-10-20)"
+AI video,Hailuo / MiniMax,Y: API,MP4,Paid per second or per video,Unknown,Paid,Sources: platform.minimax.io/docs/pricing/overview ; platform.minimax.io/docs/guides/pricing-video,"VERIFIED (2 sources, 2026-10-20)"
 AI video,OpenAI Sora,Y: API,MP4,Paid,OpenAI terms,Paid,,UNVERIFIED
 AI video,Google Veo,Y: Gemini API / Vertex AI,MP4,Paid,Google API terms,Paid,,UNVERIFIED
-AI video,Synthesia,Y: API,MP4,Paid plans,Unknown,Paid,,UNVERIFIED
-AI video,HeyGen,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
+AI video,Synthesia,Y: API,MP4,Paid (video API needs Pro or Enterprise),Unknown,Paid,Sources: synthesia.io/pricing ; help.synthesia.io 'How do I use the Synthesia API?',"VERIFIED (2 sources, 2026-10-20)"
+AI video,HeyGen,Y: API,MP4,"Paid pay-as-you-go from $5, no subscription",Unknown,Paid,Sources: help.heygen.com API pricing explained ; heygen.com/blog/ai-video-generator-pricing,"VERIFIED (2 sources, 2026-10-20)"
 AI video,D-ID,Y: API,MP4,Paid,Unknown,Paid,,UNVERIFIED
 AI video,Haiper,N: consumer app shut Feb 2025; enterprise/B2B only,MP4,Enterprise only,Unknown,Yes (no public access),Sources: haiper consumer shutdown reported Feb 2025 (techraisal.com/blog/haiper-ai-is-down-best-free-and-paid-alternatives/ ; reddit r/haiper 2025-02-02),"VERIFIED (2 sources, 2026-10-20)"
 AI video,Kaiber,N,MP4,n/a,Unknown,Guide only,No public developer API. Sources: apis.io/providers/kaiber/ ; instawhat.ai/tools/kaiber,"VERIFIED (2 sources, 2026-10-20)"
@@ -73,8 +73,8 @@ Animation / 3D / motion,Houdini,Y: Python (hou),"USD, Alembic, FBX","App paid (A
 Animation / 3D / motion,Unreal Engine,"Y: Python/Blueprint, Remote Control API","USD, FBX",Free (royalty terms),Epic EULA,No (local),,UNVERIFIED
 Animation / 3D / motion,Unity,Y: C# Editor scripting,"FBX, USD",Free tier,Unity terms,No (local),,UNVERIFIED
 Animation / 3D / motion,Spline,partial: API/export,glTF,Paid tiers,Unknown,Unknown,,UNVERIFIED
-Animation / 3D / motion,Rive,partial: runtime APIs,RIV,Free tier,Unknown,Unknown,,UNVERIFIED
-Animation / 3D / motion,LottieFiles,Y: API,Lottie JSON,Free tier,Unknown,Unknown,,UNVERIFIED
+Animation / 3D / motion,Rive,Y: MIT open-source runtimes; editor free,RIV,Production .riv export needs Cadet ($9/mo annual),Unknown,Unknown,Sources: rive.app/blog/rive-s-new-9-mo-plan ; rive.app/docs/account-admin/pricing,"VERIFIED (2 sources, 2026-10-20)"
+Animation / 3D / motion,LottieFiles,"N: no public API for animations; API offered via IconScout, no public pricing",Lottie JSON,Unknown,Unknown,Unknown,Corrected 2026-10-20 from forum.lottiefiles.com 'Free animations via API' (one source),UNVERIFIED (one source)
 Animation / 3D / motion,Toon Boom Harmony,partial: scripting,"SWF, PNG seq",App paid,Unknown,Local only,,UNVERIFIED
 Animation / 3D / motion,Synfig,partial: open source,SIF XML,No,GPL,No,,UNVERIFIED
 Animation / 3D / motion,Moho,partial: Lua scripting,MOHO,App paid,Unknown,Local only,,UNVERIFIED
@@ -96,15 +96,15 @@ Subtitles / voice,Whisper (open source),"Y: local, open source (MIT)","SRT, VTT,
 Subtitles / voice,Subtitle Edit,"partial: CLI, open source","SRT, VTT, ASS",No,GPL,No,,UNVERIFIED
 Subtitles / voice,Aegisub,"partial: Lua automation, open source","ASS, SRT",No,BSD,No,,UNVERIFIED
 Subtitles / voice,Rev,Y: API,"SRT, VTT",Paid per minute,Unknown,Paid,,UNVERIFIED
-Subtitles / voice,Otter.ai,Y: public API for Enterprise workspaces only,"TXT, SRT",Paid (Enterprise),Unknown,Paid,Corrected 2026-10-20 from help.otter.ai Otter.ai Public API (one source),UNVERIFIED (one source)
-Subtitles / voice,AssemblyAI,Y: API,"SRT, VTT",Paid (free trial credits),Unknown,Credit spend,,UNVERIFIED
+Subtitles / voice,Otter.ai,Y: public API for Enterprise workspaces only,"TXT, SRT",Paid (Enterprise),Unknown,Paid,"Enterprise workspaces only, enabled by account manager. Sources: help.otter.ai Otter.ai Public API ; help.otter.ai 'Does Otter offer an open API?'","VERIFIED (2 sources, 2026-10-20)"
+Subtitles / voice,AssemblyAI,Y: API,"SRT, VTT","Paid ($50 free credits, no card)",Unknown,Credit spend,Free credits are a trial; using them is credit spend. Sources: assemblyai.com/pricing/ ; assemblyai.com/docs/billing-and-pricing,"VERIFIED (2 sources, 2026-10-20)"
 Subtitles / voice,Deepgram,Y: API,"SRT, VTT",Paid (free credits),Unknown,Credit spend,,UNVERIFIED
-Subtitles / voice,Murf,Y: API,"MP3, WAV",Paid,Unknown,Paid,,UNVERIFIED
-Subtitles / voice,Resemble AI,Y: API,WAV,Paid,Unknown,Paid,,UNVERIFIED
-Subtitles / voice,Kapwing,partial: no public REST API; whitelisted Plugin API only,"SRT, MP4",Paid tiers,Unknown,Unknown,Corrected 2026-10-20 from providers.apievangelist.com/providers/kapwing/ (one source),UNVERIFIED (one source)
-Subtitles / voice,Veed,"Y: public REST API (workspace key, job polling)","SRT, MP4",Paid tiers,Unknown,Unknown,Corrected 2026-10-20 from api.veed.io/docs (one source); pricing not checked,UNVERIFIED (one source)
+Subtitles / voice,Murf,Y: API,"MP3, WAV",Paid per use (Falcon TTS $0.01/min),Unknown,Paid,Sources: murf.ai/pricing ; murf.ai/api,"VERIFIED (2 sources, 2026-10-20)"
+Subtitles / voice,Resemble AI,"N for voice: no longer sells voice generation or cloning; APIs now deepfake detection, watermarking, identity",n/a,Paid,Unknown,Yes (no voice API for sale),Sources: resemble.ai/pricing ; resemble.ai/llms.txt,"VERIFIED (2 sources, 2026-10-20)"
+Subtitles / voice,Kapwing,partial: no public REST API; whitelisted Plugin API only,"SRT, MP4",Paid tiers,Unknown,Unknown,No public REST API; plugin API needs whitelisting. Sources: github.com/kapwing/plugin-helpers ; apis.io/providers/kapwing/,"VERIFIED (2 sources, 2026-10-20)"
+Subtitles / voice,Veed,"Y: public REST API (Fabric 1.0, lipsync, subtitles, background removal)","SRT, MP4",Paid per use (e.g. Fabric $0.08/s at 480p),Unknown,Paid,Sources: api.veed.io/pricing ; veed.io/api,"VERIFIED (2 sources, 2026-10-20)"
 Storage / transfer hubs,Dropbox,Y: API (connected),Any,Free plan (2 GB),Dropbox API terms,No,,VERIFIED (connected connector)
-Storage / transfer hubs,Box,Y: API,Any,Free tier,Box terms,No,,UNVERIFIED
+Storage / transfer hubs,Box,Y: API,Any,Free developer plan (10 GB),Box terms,No,Sources: developer.box.com/guides/getting-started/free-developer-plan ; developer.box.com/guides/getting-started,"VERIFIED (2 sources, 2026-10-20)"
 Storage / transfer hubs,OneDrive,Y: Microsoft Graph,Any,Free tier,Microsoft terms,No,,UNVERIFIED
 Storage / transfer hubs,Google Drive,"Y: Drive API, user OAuth",Any,Free tier (15 GB),Google API terms; OAuth app verification for some scopes,No (via user OAuth),,UNVERIFIED
 Storage / transfer hubs,iCloud Drive,N: no public file API,Any,n/a,Apple terms,Guide only,,UNVERIFIED
@@ -127,11 +127,11 @@ Export / distribution,Facebook,Y: Graph API video publishing to Pages,MP4,Free; 
 Export / distribution,Threads,Y: Threads API publishing,"MP4, JPEG",Free; Meta app review,App review,Partial,,UNVERIFIED
 Export / distribution,Twitch,"N for upload: Kraken upload endpoints shut 28 Feb 2022, Helix Videos has no upload",n/a,Free,Twitch terms,Yes for upload,Sources: discuss.dev.twitch.com/t/video-uploads-api/42286 ; blog.twitch.tv 2021-07-15 v5 shutdown,"VERIFIED (2 sources, 2026-10-20)"
 Export / distribution,Dailymotion,"Y: upload API (upload sessions, video.manage scope)",MP4,No,Unknown,No,Sources: developers.dailymotion.com/docs/upload-videos ; developers.dailymotion.com/reference/api-upload-a-video-file,"VERIFIED (2 sources, 2026-10-20)"
-Export / distribution,Rumble,partial: upload API only for Rumble PRO subscribers,MP4,Paid (Rumble PRO),Unknown,Paid,Corrected 2026-10-20 from rumbleplayer.com/developers/Upload.html (one source),UNVERIFIED (one source)
+Export / distribution,Rumble,partial: upload API only for Rumble PRO subscribers,MP4,Paid (Rumble PRO),Unknown,Paid,Upload API (simple-upload.php) for Rumble PRO packages only. Sources: rumbleplayer.com/developers/Upload.html ; stackoverflow.com/questions/66858635 (Rumble Upload API example),"VERIFIED (2 sources, 2026-10-20)"
 Export / distribution,Apple Music,N: distributors only,n/a,n/a,Distributor terms,Yes,,UNVERIFIED
 Export / distribution,Amazon Music,N: distributors only,n/a,n/a,Distributor terms,Yes,,UNVERIFIED
 Export / distribution,DistroKid,N: no public API known,WAV,Paid service,Unknown,Paid,,UNVERIFIED
-Export / distribution,Audiomack,partial: data/playback API (OAuth 1.0a); no public upload API found,MP3,Unknown,Unknown,Unknown,Corrected 2026-10-20 from audiomack.com/data-api/docs (one source),UNVERIFIED (one source)
+Export / distribution,Audiomack,partial: data/playback API (OAuth 1.0a); no public upload API found,MP3,Unknown,Unknown,Unknown,"Data API only; Upload API announced for approved apps, partners and distributors, no public docs. Sources: audiomack.com/data-api/docs ; medium.com/audiomack new upload system post","VERIFIED (2 sources, 2026-10-20)"
 Export / distribution,LinkedIn,Y: API (approval),MP4,"Free, app review",LinkedIn terms,Partial,,UNVERIFIED
 Export / distribution,Pinterest,Y: API (approval),"Images, MP4","Free, app review",Pinterest terms,Partial,,UNVERIFIED
 Export / distribution,Bluesky,"Y: AT Protocol, open","Images, MP4",No,Open protocol,No,,UNVERIFIED

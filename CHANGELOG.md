@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.9 (2026-10-20)
+- Second sources added for Rumble, Audiomack, Otter.ai, Kapwing and Veed (now VERIFIED; Veed priced per use).
+- Corrections, two sources each: Descript API in open beta for all users since 16 Apr 2026; Resemble AI no longer sells voice generation or cloning; Rive editor free but production export needs the $9/mo Cadet plan.
+- Confirmed with two sources and pricing filled in: CapCut, Synthesia, HeyGen, Kling, Hailuo/MiniMax, AssemblyAI, Murf, Recraft, Box.
+- LottieFiles corrected from one source (no public animation API; offered via IconScout), still UNVERIFIED.
+- 55 of 138 tools now checked; 83 not yet checked. README explains how the counts add up to 138.
+- Data and docs only; no behavior changes.
+
 ## 1.0.8 (2026-10-20)
 - Allowlist check batch (sources in each row's notes). Two-source VERIFIED: Kdenlive (native OTIO import and export since 25.04), Affinity (now free with a Canva account; in-app JS scripting SDK), Kaiber (no public API), Mubert (paid, no free tier), Twitch (no upload API since Feb 2022), Leonardo.ai and Ideogram (paid per use), Dailymotion (free upload API).
 - Corrected from one source and still marked UNVERIFIED: Rumble (upload API for Rumble PRO only), Audiomack (no public upload API found), Otter.ai (API for Enterprise only), Kapwing (no public REST API, plugin API only), Veed (public REST API exists).
