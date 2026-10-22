@@ -12,6 +12,7 @@
   "license": "MIT",
   "logo": "assets/logo.png",
   "keywords": [
+    "creative-switchboard",
     "creative",
     "video-editing",
     "audio",
@@ -47,6 +48,7 @@
     "allowlist",
     "official-methods",
     "free-tools",
-    "multilingual"
+    "multilingual",
+    "jenny-echo"
   ]
 }
