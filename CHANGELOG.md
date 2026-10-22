@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.14 (2026-10-21)
+- Added `tests/check_frontmatter.py`: a strict YAML front-matter check (PyYAML `safe_load`) for every SKILL.md and rules .mdc file, plus a plugin.json JSON check. Run `python3 tests/check_frontmatter.py` from the repo root; it catches the unquoted-colon bug fixed in PluginPulse 1.0.2.
+- No behavior changes to skills or rules.
+
 ## 1.0.13 (2026-10-20)
 - Allowlist complete: all 138 tools checked with two sources (sources in each row's notes).
 - YouTube: the official videos.insert reference (updated 2026-10-15) says uploads from unverified API projects are not restricted to private. The upload quota is 100 per day. The row is no longer a partial blocker.
