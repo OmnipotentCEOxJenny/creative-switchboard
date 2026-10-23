@@ -5,7 +5,7 @@ description: Plan and run a transfer of a creative project or media between tool
 
 # Route a creative project
 
-Follow `rules/pillars-and-scope.mdc`. Required.
+Follow `rules/scope.mdc`. Required.
 
 ## Workflow
 1. **Identify source, destination and asset type** (timeline, audio stems, mix, images, 3D scene, subtitles, final render).
@@ -18,7 +18,7 @@ Follow `rules/pillars-and-scope.mdc`. Required.
    5. Otherwise: give the user manual export and import steps.
 4. **Stop on hard blockers** (for example Midjourney bans automation; Spotify has no upload API). Say so and offer the manual route.
 5. **Run or describe the steps.** Never run credit-spending generation without explicit approval.
-6. **Verify the result** (pillar 3): the file exists and opens; duration, frame rate, sample rate and track count match; report any loss (effects and plugins usually do not survive interchange).
+6. **Verify the result**: the file exists and opens; duration, frame rate, sample rate and track count match; report any loss (effects and plugins usually do not survive interchange).
 7. **Report**: route chosen and why, steps, what was verified, what was lost, unverified tool facts.
 
 ## Social platforms

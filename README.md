@@ -32,7 +32,6 @@ Think of it like a surge protector for creative software, worded truthfully: ope
 - DaVinci Resolve OTIO import: not confirmed in the Resolve manual.
 - How the listing works on the Grok Bot and Grok side: not described in the publisher terms.
 
-
 ## Testing status (corrected 2026-10-23)
 - Local automated tests: PASS on 2026-10-23 (`python3 tests/check_frontmatter.py`: plugin.json is valid JSON and every SKILL.md and rules file has valid front matter). Earlier local tests are listed under Project status above.
 - In-app testing (loading the plugin inside the Cursor app or Grok Build): **not yet completed**. It is pending.
@@ -61,17 +60,11 @@ Expected: FCPXML matches the source's track count, clip count and total duration
 - Inventor and publisher: Rob Domaine / Omnipotent Media LLC
 - Builder: Jenny Echo
 
-## Rob Domaine's four pillars
-1. Trustworthy, honest, real data, truthful: never invent; anything unchecked is marked UNVERIFIED.
-2. Use only legitimate means: legitimate, proven sources and methods; unreliable sources rejected.
-3. Double-check everything: every finding is confirmed by two independent checks, and the report shows both.
-4. Stay within the law and rules always: local, county, state, federal and platform rules.
-
 ## Components
 - `skills/route-creative-project`: plans and runs a transfer, most open route first, and verifies the result.
 - `skills/convert-timeline`: converts timelines with the free OpenTimelineIO tools and reports what survives.
 - `skills/route-creative-project/references/allowlist.csv`: the full allowlist with methods, formats, paid-plan needs, terms limits, blockers and verification status.
-- `rules/pillars-and-scope.mdc`: the pillars and scope.
+- `rules/scope.mdc`: the scope.
 - `examples/sample-route.md`: a planning example.
 
 ## Allowlist (138 tools; checked vs not yet checked)

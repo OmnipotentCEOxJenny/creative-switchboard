@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.19 (2026-10-23)
+- Remove internal notes from the README, translations, rule file (renamed to `rules/scope.mdc` where applicable) and skills. Local tests re-run and passed. Not tested in-app. Not submitted to the marketplace.
+
 ## 1.0.18 (2026-10-23)
 - README: new "Testing status" section. Local automated tests pass; in-app testing is not yet completed. Records that the marketplace submit form's "tested locally and in-app" confirmation (2026-10-15, v1.0.3) was checked in error before any in-app test; in-app testing is pending.
 - Docs only; no behavior changes. Local tests re-run and passed. Not tested in-app. Not resubmitted.
@@ -74,7 +77,7 @@
 - Docs only; no behavior changes.
 
 ## 1.0.5 (2026-10-20)
-- README follows the shared template: title, plain description, logo, existing content (Rob Domaine's four pillars unchanged), and a new final section "Honest assessment: what this plugin cannot do" listing real limits and the compliance statement.
+- README follows the shared template: title, plain description, logo, existing content, and a new final section "Honest assessment: what this plugin cannot do" listing real limits and the compliance statement.
 - TRANSLATIONS.md now covers the same 23 languages as every Omnipotent plugin (title, description and honest-assessment summary for each), all marked as machine translations not reviewed by native speakers.
 - Docs only; no behavior changes.
 
@@ -96,4 +99,4 @@
 - Google and Meta tools (Google Imagen/Gemini, Google Veo, Google Drive, YouTube, Meta AI, Instagram, Facebook, Threads) added back to the allowlist with not-yet-checked status; exclusion wording removed. Suno note: API sign-in uses a Google account.
 
 ## 1.0.0 (2026-10-15)
-- First release: route-creative-project and convert-timeline skills, pillars rule, allowlist of 138 tools, sample route, logo.
+- First release: route-creative-project and convert-timeline skills, allowlist of 138 tools, sample route, logo.

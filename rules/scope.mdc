@@ -1,0 +1,9 @@
+---
+description: Creative Switchboard scope. Open formats and local files first; cloud tools only through the user's own sign-in and the vendor's official methods.
+alwaysApply: false
+---
+
+# Language
+- Detect the language the user writes in and answer in that language. If it is unclear, ask which language they want.
+- Keep commands, code, file names, paths, URLs, header names, format and API names, and status labels (CONFIRMED, UNVERIFIED, SINGLE-CHECK) exactly as written; do not translate them.
+- Translations you produce are machine-made. Say so when accuracy matters, and never present a translation as a quotation of the source.
