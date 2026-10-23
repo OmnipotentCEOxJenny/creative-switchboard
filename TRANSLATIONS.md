@@ -13,6 +13,8 @@ Languages: Español, Français, Português, Deutsch, Italiano, Nederlands, Polsk
 4. Stay within the law and rules always: local, county, state, federal and platform rules.
 
 ## Español (`es`)
+_Traducción automática, no revisada por un hablante nativo. La versión en inglés es la oficial._
+
 **Creative Switchboard**
 *Traducción automática, aún no revisada por un hablante nativo.*
 
@@ -36,6 +38,8 @@ Los cuatro pilares de Rob Domaine se aplican siempre. Se mantienen abajo con su 
 - Revisión del marketplace pendiente; aún no es una publicación aprobada.
 
 ## Français (`fr`)
+_Traduction automatique, non relue par un locuteur natif. La version anglaise fait foi._
+
 **Creative Switchboard**
 *Traduction automatique, pas encore relue par un locuteur natif.*
 
@@ -59,6 +63,8 @@ Les quatre piliers de Rob Domaine s'appliquent toujours. Ils figurent ci-dessous
 - Examen sur le marketplace en attente ; pas encore une fiche approuvée.
 
 ## Português (`pt`)
+_Tradução automática, não revisada por um falante nativo. A versão em inglês é a oficial._
+
 **Creative Switchboard**
 *Tradução automática, ainda não revisada por um falante nativo.*
 
@@ -82,6 +88,8 @@ Os quatro pilares de Rob Domaine sempre se aplicam. Eles estão abaixo na redaç
 - Análise do marketplace pendente; ainda não é uma listagem aprovada.
 
 ## Deutsch (`de`)
+_Maschinelle Übersetzung, nicht von Muttersprachlern geprüft. Maßgeblich ist die englische Fassung._
+
 **Creative Switchboard**
 *Maschinelle Übersetzung, noch nicht von Muttersprachlern geprüft.*
 
@@ -105,6 +113,8 @@ Rob Domaines vier Grundsätze gelten immer. Sie stehen unten in seinem englische
 - Marketplace-Prüfung ausstehend; noch kein genehmigter Eintrag.
 
 ## Italiano (`it`)
+_Traduzione automatica, non revisionata da un madrelingua. Fa fede la versione inglese._
+
 **Creative Switchboard**
 *Traduzione automatica, non ancora revisionata da un madrelingua.*
 
@@ -128,6 +138,8 @@ I quattro pilastri di Rob Domaine valgono sempre. Sono riportati sotto nella sua
 - Revisione del marketplace in attesa; non è ancora una scheda approvata.
 
 ## 简体中文 (`zh`)
+_机器翻译，未经母语人士审校。以英文版本为准。_
+
 **Creative Switchboard**
 *机器翻译，尚未经母语人士审阅。*
 
@@ -151,6 +163,8 @@ Rob Domaine 的四大原则始终适用，下方保留其英文原文。
 - 市场审核尚在进行，目前还不是已批准的上架项目。
 
 ## 日本語 (`ja`)
+_機械翻訳であり、ネイティブスピーカーによる確認は受けていません。英語版が正式な版です。_
+
 **Creative Switchboard**
 *機械翻訳です。ネイティブスピーカーによる確認はまだです。*
 
@@ -174,6 +188,8 @@ Rob Domaine の4つの柱は常に適用されます。下記に英語の原文�
 - マーケットプレイスの審査待ちで、まだ承認済みの掲載ではありません。
 
 ## 한국어 (`ko`)
+_기계 번역이며 원어민의 검토를 받지 않았습니다. 영어판이 공식 버전입니다._
+
 **Creative Switchboard**
 *기계 번역이며 아직 원어민의 검토를 받지 않았습니다.*
 
@@ -197,6 +213,8 @@ Rob Domaine의 네 가지 원칙은 항상 적용됩니다. 아래에 영어 원
 - 마켓플레이스 심사 대기 중이며 아직 승인된 목록이 아닙니다.
 
 ## हिन्दी (`hi`)
+_यह मशीनी अनुवाद है, किसी मूल भाषी ने इसकी समीक्षा नहीं की है। अंग्रेज़ी संस्करण ही प्रामाणिक है।_
+
 **Creative Switchboard**
 *मशीन अनुवाद, अभी तक किसी मूल भाषी द्वारा जाँचा नहीं गया।*
 
@@ -220,6 +238,8 @@ Rob Domaine के चार स्तंभ हमेशा लागू हो
 - मार्केटप्लेस समीक्षा लंबित है; यह अभी स्वीकृत लिस्टिंग नहीं है।
 
 ## العربية (`ar`)
+_ترجمة آلية لم يراجعها متحدث أصلي. النسخة الإنجليزية هي المعتمدة._
+
 **Creative Switchboard**
 *ترجمة آلية، لم يراجعها متحدث أصلي بعد.*
 
@@ -243,6 +263,8 @@ Rob Domaine के चार स्तंभ हमेशा लागू हो
 - مراجعة المتجر قيد الانتظار؛ ليست قائمة معتمدة بعد.
 
 ## Русский (`ru`)
+_Машинный перевод, не проверен носителем языка. Основной является английская версия._
+
 **Creative Switchboard**
 *Машинный перевод, ещё не проверен носителем языка.*
 
@@ -266,6 +288,8 @@ Creative Switchboard переносит проекты между творчес
 - Проверка в маркетплейсе ещё идёт; это пока не одобренная публикация.
 
 ## Bahasa Indonesia (`id`)
+_Terjemahan mesin, belum ditinjau oleh penutur asli. Versi bahasa Inggris adalah versi yang berlaku._
+
 **Creative Switchboard**
 *Terjemahan mesin, belum ditinjau oleh penutur asli.*
 
@@ -289,6 +313,8 @@ Empat pilar Rob Domaine selalu berlaku. Pilar tersebut tercantum di bawah dalam 
 - Peninjauan marketplace masih menunggu; belum menjadi listing yang disetujui.
 
 ## Türkçe (`tr`)
+_Makine çevirisidir, anadili bu dil olan biri tarafından incelenmemiştir. Geçerli olan İngilizce sürümdür._
+
 **Creative Switchboard**
 *Makine çevirisidir, henüz anadili konuşan biri tarafından gözden geçirilmedi.*
 
@@ -312,6 +338,8 @@ Rob Domaine'in dört ilkesi her zaman geçerlidir. Aşağıda orijinal İngilizc
 - Marketplace incelemesi sürüyor; henüz onaylı bir liste değil.
 
 ## Tiếng Việt (`vi`)
+_Bản dịch máy, chưa được người bản ngữ kiểm tra. Bản tiếng Anh là bản chính thức._
+
 **Creative Switchboard**
 *Bản dịch máy, chưa được người bản ngữ kiểm tra.*
 
@@ -335,6 +363,8 @@ Bốn trụ cột của Rob Domaine luôn được áp dụng. Chúng được g
 - Đang chờ marketplace xét duyệt; chưa phải mục đã được phê duyệt.
 
 ## বাংলা (`bn`)
+_এটি যন্ত্র-অনুবাদ, কোনো মাতৃভাষী এটি পর্যালোচনা করেননি। ইংরেজি সংস্করণটিই প্রামাণিক।_
+
 **Creative Switchboard**
 *যন্ত্র-অনুবাদ, এখনও কোনো মাতৃভাষী পর্যালোচনা করেননি।*
 
@@ -358,6 +388,8 @@ Rob Domaine-এর চারটি স্তম্ভ সবসময় প্�
 - মার্কেটপ্লেস পর্যালোচনা বাকি; এখনও অনুমোদিত তালিকা নয়।
 
 ## Kiswahili (`sw`)
+_Tafsiri ya mashine, haijakaguliwa na mzungumzaji asilia. Toleo la Kiingereza ndilo rasmi._
+
 **Creative Switchboard**
 *Tafsiri ya mashine, bado haijakaguliwa na mzungumzaji asilia.*
 
@@ -381,6 +413,8 @@ Nguzo nne za Rob Domaine zinatumika kila wakati. Zimewekwa hapa chini kwa maneno
 - Ukaguzi wa marketplace bado unasubiriwa; bado si orodha iliyoidhinishwa.
 
 ## Українська (`uk`)
+_Машинний переклад, не перевірений носієм мови. Основною є англійська версія._
+
 **Creative Switchboard**
 *Машинний переклад, ще не перевірений носієм мови.*
 
@@ -404,6 +438,8 @@ Creative Switchboard переносить проєкти між творчими
 - Перевірка в маркетплейсі ще триває; це ще не схвалений запис.
 
 ## Polski (`pl`)
+_Tłumaczenie maszynowe, niesprawdzone przez rodzimego użytkownika języka. Wiążąca jest wersja angielska._
+
 **Creative Switchboard**
 *Tłumaczenie maszynowe, jeszcze niesprawdzone przez rodzimego użytkownika języka.*
 
@@ -427,6 +463,8 @@ Cztery filary Roba Domaine'a obowiązują zawsze. Poniżej podano je w oryginaln
 - Weryfikacja w marketplace w toku; to jeszcze nie zatwierdzona pozycja.
 
 ## Nederlands (`nl`)
+_Machinevertaling, niet nagekeken door een moedertaalspreker. De Engelse versie is leidend._
+
 **Creative Switchboard**
 *Machinevertaling, nog niet nagekeken door een moedertaalspreker.*
 
@@ -450,6 +488,8 @@ De vier pijlers van Rob Domaine gelden altijd. Ze staan hieronder in zijn oorspr
 - Marketplace-beoordeling loopt nog; nog geen goedgekeurde vermelding.
 
 ## Tagalog / Filipino (`tl`)
+_Makina ang nagsalin nito at hindi pa nasusuri ng katutubong tagapagsalita. Ang bersyong Ingles ang opisyal._
+
 **Creative Switchboard**
 *Pagsasaling makina, hindi pa nasusuri ng katutubong nagsasalita.*
 
@@ -473,6 +513,8 @@ Laging umiiral ang apat na haligi ni Rob Domaine. Nakasaad ang mga ito sa ibaba 
 - Nakabinbin pa ang pagsusuri sa marketplace; hindi pa ito aprubadong listing.
 
 ## עברית (`he`)
+_תרגום מכונה שלא נבדק על ידי דובר שפת אם. הגרסה האנגלית היא המחייבת._
+
 **Creative Switchboard**
 
 Creative Switchboard מעביר פרויקטים בין כלים יצירתיים (וידאו, אודיו, מוזיקה, תמונה, תלת־ממד, עיצוב) באמצעות פורמטים פתוחים, Dropbox כמרכז, והדרכים הרשמיות של כל ספק.
@@ -489,6 +531,8 @@ Creative Switchboard מעביר פרויקטים בין כלים יצירתיי�
 - בדיקת ה-marketplace עדיין ממתינה; זה עדיין לא רישום מאושר.
 
 ## فارسی (`fa`)
+_ترجمه ماشینی است و توسط گویشور بومی بازبینی نشده است. نسخه انگلیسی معتبر است._
+
 **Creative Switchboard**
 
 Creative Switchboard پروژه‌ها را میان ابزارهای خلاقانه (ویدئو، صدا، موسیقی، تصویر، سه‌بعدی، طراحی) با قالب‌های باز فایل، Dropbox به‌عنوان مرکز و روش‌های رسمی هر سازنده جابه‌جا می‌کند.
@@ -505,6 +549,8 @@ Creative Switchboard پروژه‌ها را میان ابزارهای خلاقا
 - بررسی در بازارچه در انتظار است؛ هنوز فهرستی تأییدشده نیست.
 
 ## اردو (`ur`)
+_یہ مشینی ترجمہ ہے، کسی اہلِ زبان نے اس کا جائزہ نہیں لیا۔ انگریزی ورژن ہی مستند ہے۔_
+
 **Creative Switchboard**
 
 Creative Switchboard تخلیقی ٹولز (ویڈیو، آڈیو، موسیقی، تصویر، 3D، ڈیزائن) کے درمیان کھلے فائل فارمیٹس، Dropbox کو مرکز بنا کر، اور ہر کمپنی کے سرکاری طریقوں سے پراجیکٹس منتقل کرتا ہے۔
